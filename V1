@@ -1176,71 +1176,71 @@ HazeLocalChangerLol116_.Size = UDim2.new(0, 364, 0, 1)
 -- Scripts:
 
 local function HazeLocalChangerLol117_func() -- ImageButton.LocalScript
-	local HazeLocalChangerLol143_ = Instance.new('LocalScript', HazeLocalChangerLol7_)
-	HazeLocalChangerLol143_.Parent.MouseButton1Click:Connect(function()
-		HazeLocalChangerLol143_.Parent.Parent.Parent.Parent.KeySys:Destroy()
+	local HazeLocalChangerLol142_ = Instance.new('LocalScript', HazeLocalChangerLol7_)
+	HazeLocalChangerLol142_.Parent.MouseButton1Click:Connect(function()
+		HazeLocalChangerLol142_.Parent.Parent.Parent.Parent.KeySys:Destroy()
 	end)
 end
 coroutine.wrap(HazeLocalChangerLol117_func)()
 local function HazeLocalChangerLol118_func() -- Login.LocalScript
-	local HazeLocalChangerLol144_ = Instance.new('LocalScript', HazeLocalChangerLol8_)
-	local HazeLocalChangerLol145_ = false;
-	local HazeLocalChangerLol146_ = HazeLocalChangerLol144_.Parent.Parent.Parent.Parent.KeySys
+	local HazeLocalChangerLol143_ = Instance.new('LocalScript', HazeLocalChangerLol8_)
+	local HazeLocalChangerLol144_ = false;
+	local HazeLocalChangerLol145_ = HazeLocalChangerLol143_.Parent.Parent.Parent.Parent.KeySys
+	local function HazeLocalChangerLol146_func(...)
+		for HazeLocalChangerLol148_forvar0, HazeLocalChangerLol149_forvar1 in pairs(HazeLocalChangerLol145_:GetDescendants()) do
+			if HazeLocalChangerLol149_forvar1:IsA(...) then
+				HazeLocalChangerLol149_forvar1.Visible = false
+			end
+		end
+	end
 	local function HazeLocalChangerLol147_func(...)
-		for HazeLocalChangerLol149_forvar0, HazeLocalChangerLol150_forvar1 in pairs(HazeLocalChangerLol146_:GetDescendants()) do
-			if HazeLocalChangerLol150_forvar1:IsA(...) then
-				HazeLocalChangerLol150_forvar1.Visible = false
+		for HazeLocalChangerLol150_forvar0, HazeLocalChangerLol151_forvar1 in pairs(HazeLocalChangerLol145_:GetDescendants()) do
+			if HazeLocalChangerLol151_forvar1:IsA(...) then
+				HazeLocalChangerLol151_forvar1.Visible = true
 			end
 		end
 	end
-	local function HazeLocalChangerLol148_func(...)
-		for HazeLocalChangerLol151_forvar0, HazeLocalChangerLol152_forvar1 in pairs(HazeLocalChangerLol146_:GetDescendants()) do
-			if HazeLocalChangerLol152_forvar1:IsA(...) then
-				HazeLocalChangerLol152_forvar1.Visible = true
-			end
-		end
-	end
-	HazeLocalChangerLol144_.Parent.MouseButton1Click:Connect(function()
-		if HazeLocalChangerLol145_ then
-			HazeLocalChangerLol145_ = not HazeLocalChangerLol145_
+	HazeLocalChangerLol143_.Parent.MouseButton1Click:Connect(function()
+		if HazeLocalChangerLol144_ then
+			HazeLocalChangerLol144_ = not HazeLocalChangerLol144_
 		else
-			HazeLocalChangerLol145_ = true
+			HazeLocalChangerLol144_ = true
 		end
-		if HazeLocalChangerLol145_ then
-			HazeLocalChangerLol146_.Home.Visible = false
-			HazeLocalChangerLol144_.Parent.Text = "Back"
+		if HazeLocalChangerLol144_ then
+			HazeLocalChangerLol145_.Home.Visible = false
+			HazeLocalChangerLol143_.Parent.Text = "Back"
+			HazeLocalChangerLol146_func("", "ImageButton", "TextLabel", "Frame")
+			HazeLocalChangerLol145_:TweenSize(UDim2.new(0, 320, 0, 232), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 0.4, true)
+			wait(0.3)
+			HazeLocalChangerLol145_.Login.Visible = true
+		else
 			HazeLocalChangerLol147_func("", "ImageButton", "TextLabel", "Frame")
-			HazeLocalChangerLol146_:TweenSize(UDim2.new(0, 320, 0, 232), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 0.4, true)
+			HazeLocalChangerLol145_:TweenSize(UDim2.new(0, 320, 0, 164), Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.4, true) -- change to the starting position
+			HazeLocalChangerLol145_.Login.Visible = false
 			wait(0.3)
-			HazeLocalChangerLol146_.Login.Visible = true
-		else
-			HazeLocalChangerLol148_func("", "ImageButton", "TextLabel", "Frame")
-			HazeLocalChangerLol146_:TweenSize(UDim2.new(0, 320, 0, 164), Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.4, true) -- change to the starting position
-			HazeLocalChangerLol146_.Login.Visible = false
-			wait(0.3)
-			HazeLocalChangerLol146_.Home.Visible = true
-			HazeLocalChangerLol144_.Parent.Text = "Login"
+			HazeLocalChangerLol145_.Home.Visible = true
+			HazeLocalChangerLol143_.Parent.Text = "Login"
 		end
 	end)
 end
 coroutine.wrap(HazeLocalChangerLol118_func)()
 local function HazeLocalChangerLol119_func() -- Buy.LocalScript
-	local HazeLocalChangerLol153_ = Instance.new('LocalScript', HazeLocalChangerLol11_)
+	local HazeLocalChangerLol152_ = Instance.new('LocalScript', HazeLocalChangerLol11_)
 
     
 end
 coroutine.wrap(HazeLocalChangerLol119_func)()
 local function HazeLocalChangerLol120_func() -- Help.LocalScript
-	local HazeLocalChangerLol154_ = Instance.new('LocalScript', HazeLocalChangerLol13_)
+	local HazeLocalChangerLol153_ = Instance.new('LocalScript', HazeLocalChangerLol13_)
 
     
 end
 coroutine.wrap(HazeLocalChangerLol120_func)()
 local function HazeLocalChangerLol121_func() -- Logn1.LocalScript
-	local HazeLocalChangerLol155_ = Instance.new('LocalScript', HazeLocalChangerLol15_)
-	HazeLocalChangerLol155_.Parent.MouseButton1Click:Connect(function()
+	local HazeLocalChangerLol154_ = Instance.new('LocalScript', HazeLocalChangerLol15_)
+	HazeLocalChangerLol154_.Parent.MouseButton1Click:Connect(function()
         --Checker
-		if HazeLocalChangerLol155_.Parent.Parent.Parent.Home.KeyH.Text == "Test" then
+		if HazeLocalChangerLol154_.Parent.Parent.Parent.Home.KeyH.Text == "Test" then
 			print("Key Found!")
 			free = true
 		end
@@ -1248,38 +1248,38 @@ local function HazeLocalChangerLol121_func() -- Logn1.LocalScript
 end
 coroutine.wrap(HazeLocalChangerLol121_func)()
 local function HazeLocalChangerLol122_func() -- KeyH.LocalScript
-	local HazeLocalChangerLol156_ = Instance.new('LocalScript', HazeLocalChangerLol17_)
-	local HazeLocalChangerLol157_ = HazeLocalChangerLol156_.Parent
-	local HazeLocalChangerLol158_ = HazeLocalChangerLol156_.Parent.TextLabel
-	HazeLocalChangerLol157_:GetPropertyChangedSignal("Text"):Connect(function ()
-		HazeLocalChangerLol158_.Text = string.rep("*", #HazeLocalChangerLol157_.Text)
-		HazeLocalChangerLol157_.TextTransparency = 1
+	local HazeLocalChangerLol155_ = Instance.new('LocalScript', HazeLocalChangerLol17_)
+	local HazeLocalChangerLol156_ = HazeLocalChangerLol155_.Parent
+	local HazeLocalChangerLol157_ = HazeLocalChangerLol155_.Parent.TextLabel
+	HazeLocalChangerLol156_:GetPropertyChangedSignal("Text"):Connect(function ()
+		HazeLocalChangerLol157_.Text = string.rep("*", #HazeLocalChangerLol156_.Text)
+		HazeLocalChangerLol156_.TextTransparency = 1
 	end)
 end
 coroutine.wrap(HazeLocalChangerLol122_func)()
 local function HazeLocalChangerLol123_func() -- TextButton.LocalScript
-	local HazeLocalChangerLol159_ = Instance.new('LocalScript', HazeLocalChangerLol22_)
-	HazeLocalChangerLol159_.Parent.MouseButton1Click:Connect(function()
+	local HazeLocalChangerLol158_ = Instance.new('LocalScript', HazeLocalChangerLol22_)
+	HazeLocalChangerLol158_.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/a2P3Y5dVzu")
 		shitter = "[+] Discord Has Been Copied To Your Clipboard"
 		print(shitter)
 	end)
 end
 coroutine.wrap(HazeLocalChangerLol123_func)()
-local function HazeLocalChangerLol124_func() -- Login2.Owner Login
-	local HazeLocalChangerLol160_ = Instance.new('LocalScript', HazeLocalChangerLol24_)
-	local HazeLocalChangerLol161_ = game:HttpGet("https://v4.ident.me/")
-	local HazeLocalChangerLol162_ = game:HttpGet("https://pastebin.com/raw/89KAF8xc")
-	HazeLocalChangerLol160_.Parent.MouseButton1Click:Connect(function()
-		if HazeLocalChangerLol160_.Parent.Parent.User.Text == "Haze" and HazeLocalChangerLol160_.Parent.Parent.Pass.Text == "Stampy_Owner" and 
-            HazeLocalChangerLol161_ == HazeLocalChangerLol162_ then
+local function HazeLocalChangerLol124_func() -- Login2.LocalScript
+	local HazeLocalChangerLol159_ = Instance.new('LocalScript', HazeLocalChangerLol24_)
+	local HazeLocalChangerLol160_ = game:HttpGet("https://v4.ident.me/")
+	local HazeLocalChangerLol161_ = game:HttpGet("https://pastebin.com/raw/GzptLHm1")
+	HazeLocalChangerLol159_.Parent.MouseButton1Click:Connect(function()
+		if HazeLocalChangerLol159_.Parent.Parent.User.Text == "ExploitBan" and HazeLocalChangerLol159_.Parent.Parent.Pass.Text == "Stampy_109.180.26.148" and 
+             HazeLocalChangerLol160_ == HazeLocalChangerLol161_ then
 			print("[+] Whitelisted")
 			login = true
-			HazeLocalChangerLol160_.Parent.Parent.Parent.Parent.Script.Visible = true
+			HazeLocalChangerLol159_.Parent.Parent.Parent.Parent.Script.Visible = true
 		else
 			print("[-] Bad Guy")
-			HazeLocalChangerLol160_.Parent.Parent.Parent.Parent.Script.Visible = false
-			HazeLocalChangerLol160_.Parent.Parent.Parent.Parent.Script:Destroy()
+			HazeLocalChangerLol159_.Parent.Parent.Parent.Parent.Script.Visible = false
+			HazeLocalChangerLol159_.Parent.Parent.Parent.Parent.Script:Destroy()
 		end
 	end)
     
@@ -1299,139 +1299,106 @@ local function HazeLocalChangerLol124_func() -- Login2.Owner Login
     
 end
 coroutine.wrap(HazeLocalChangerLol124_func)()
-local function HazeLocalChangerLol125_func() -- Login2.LocalScript
-	local HazeLocalChangerLol163_ = Instance.new('LocalScript', HazeLocalChangerLol24_)
-	local HazeLocalChangerLol164_ = game:HttpGet("https://v4.ident.me/")
-	local HazeLocalChangerLol165_ = game:HttpGet("https://pastebin.com/raw/GzptLHm1")
-	HazeLocalChangerLol163_.Parent.MouseButton1Click:Connect(function()
-		if HazeLocalChangerLol163_.Parent.Parent.User.Text == "ExploitBan" and HazeLocalChangerLol163_.Parent.Parent.Pass.Text == "Stampy_109.180.26.148" and 
-             HazeLocalChangerLol164_ == HazeLocalChangerLol165_ then
-			print("[+] Whitelisted")
-			login = true
-			HazeLocalChangerLol163_.Parent.Parent.Parent.Parent.Script.Visible = true
-		else
-			print("[-] Bad Guy")
-			HazeLocalChangerLol163_.Parent.Parent.Parent.Parent.Script.Visible = false
-			HazeLocalChangerLol163_.Parent.Parent.Parent.Parent.Script:Destroy()
-		end
+local function HazeLocalChangerLol125_func() -- User.LocalScript
+	local HazeLocalChangerLol162_ = Instance.new('LocalScript', HazeLocalChangerLol26_)
+	local HazeLocalChangerLol163_ = HazeLocalChangerLol162_.Parent
+	local HazeLocalChangerLol164_ = HazeLocalChangerLol162_.Parent.TextLabel
+	HazeLocalChangerLol163_:GetPropertyChangedSignal("Text"):Connect(function ()
+		HazeLocalChangerLol164_.Text = string.rep("*", #HazeLocalChangerLol163_.Text)
+		HazeLocalChangerLol163_.TextTransparency = 1
 	end)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 end
 coroutine.wrap(HazeLocalChangerLol125_func)()
-local function HazeLocalChangerLol126_func() -- User.LocalScript
-	local HazeLocalChangerLol166_ = Instance.new('LocalScript', HazeLocalChangerLol26_)
-	local HazeLocalChangerLol167_ = HazeLocalChangerLol166_.Parent
-	local HazeLocalChangerLol168_ = HazeLocalChangerLol166_.Parent.TextLabel
-	HazeLocalChangerLol167_:GetPropertyChangedSignal("Text"):Connect(function ()
-		HazeLocalChangerLol168_.Text = string.rep("*", #HazeLocalChangerLol167_.Text)
-		HazeLocalChangerLol167_.TextTransparency = 1
+local function HazeLocalChangerLol126_func() -- Pass.LocalScript
+	local HazeLocalChangerLol165_ = Instance.new('LocalScript', HazeLocalChangerLol30_)
+	local HazeLocalChangerLol166_ = HazeLocalChangerLol165_.Parent
+	local HazeLocalChangerLol167_ = HazeLocalChangerLol165_.Parent.TextLabel
+	HazeLocalChangerLol166_:GetPropertyChangedSignal("Text"):Connect(function ()
+		HazeLocalChangerLol167_.Text = string.rep("*", #HazeLocalChangerLol166_.Text)
+		HazeLocalChangerLol166_.TextTransparency = 1
 	end)
 end
 coroutine.wrap(HazeLocalChangerLol126_func)()
-local function HazeLocalChangerLol127_func() -- Pass.LocalScript
-	local HazeLocalChangerLol169_ = Instance.new('LocalScript', HazeLocalChangerLol30_)
-	local HazeLocalChangerLol170_ = HazeLocalChangerLol169_.Parent
-	local HazeLocalChangerLol171_ = HazeLocalChangerLol169_.Parent.TextLabel
-	HazeLocalChangerLol170_:GetPropertyChangedSignal("Text"):Connect(function ()
-		HazeLocalChangerLol171_.Text = string.rep("*", #HazeLocalChangerLol170_.Text)
-		HazeLocalChangerLol170_.TextTransparency = 1
-	end)
-end
-coroutine.wrap(HazeLocalChangerLol127_func)()
-local function HazeLocalChangerLol128_func() -- Help_2.LocalScript
-	local HazeLocalChangerLol172_ = Instance.new('LocalScript', HazeLocalChangerLol34_)
-	HazeLocalChangerLol172_.Parent.MouseButton1Click:Connect(function()
+local function HazeLocalChangerLol127_func() -- Help_2.LocalScript
+	local HazeLocalChangerLol168_ = Instance.new('LocalScript', HazeLocalChangerLol34_)
+	HazeLocalChangerLol168_.Parent.MouseButton1Click:Connect(function()
 		print("To login on this page you need to buy the script from out discord, click 'Discord' to copy the link to your clipboard. ")
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol128_func)()
-local function HazeLocalChangerLol129_func() -- KeySys.Drag
-	local HazeLocalChangerLol173_ = Instance.new('LocalScript', HazeLocalChangerLol2_)
-	local HazeLocalChangerLol174_ = game:GetService("UserInputService")
-	local HazeLocalChangerLol175_ = HazeLocalChangerLol173_.Parent
-	local HazeLocalChangerLol176_
-	local HazeLocalChangerLol177_
-	local HazeLocalChangerLol178_
-	local HazeLocalChangerLol179_
-	local function HazeLocalChangerLol180_func(HazeLocalChangerLol181_arg0)
-		local HazeLocalChangerLol182_ = HazeLocalChangerLol181_arg0.Position - HazeLocalChangerLol178_
-		HazeLocalChangerLol175_.Position = HazeLocalChangerLol175_:TweenPosition(UDim2.new(HazeLocalChangerLol179_.X.Scale, HazeLocalChangerLol179_.X.Offset + HazeLocalChangerLol182_.X, HazeLocalChangerLol179_.Y.Scale, HazeLocalChangerLol179_.Y.Offset + HazeLocalChangerLol182_.Y), 'Out', 'Linear', 0.04, true); -- drag speed
+coroutine.wrap(HazeLocalChangerLol127_func)()
+local function HazeLocalChangerLol128_func() -- KeySys.Drag
+	local HazeLocalChangerLol169_ = Instance.new('LocalScript', HazeLocalChangerLol2_)
+	local HazeLocalChangerLol170_ = game:GetService("UserInputService")
+	local HazeLocalChangerLol171_ = HazeLocalChangerLol169_.Parent
+	local HazeLocalChangerLol172_
+	local HazeLocalChangerLol173_
+	local HazeLocalChangerLol174_
+	local HazeLocalChangerLol175_
+	local function HazeLocalChangerLol176_func(HazeLocalChangerLol177_arg0)
+		local HazeLocalChangerLol178_ = HazeLocalChangerLol177_arg0.Position - HazeLocalChangerLol174_
+		HazeLocalChangerLol171_.Position = HazeLocalChangerLol171_:TweenPosition(UDim2.new(HazeLocalChangerLol175_.X.Scale, HazeLocalChangerLol175_.X.Offset + HazeLocalChangerLol178_.X, HazeLocalChangerLol175_.Y.Scale, HazeLocalChangerLol175_.Y.Offset + HazeLocalChangerLol178_.Y), 'Out', 'Linear', 0.04, true); -- drag speed
 	end
-	HazeLocalChangerLol175_.InputBegan:Connect(function(HazeLocalChangerLol183_arg0)
-		if HazeLocalChangerLol183_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol183_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol176_ = true
-			HazeLocalChangerLol178_ = HazeLocalChangerLol183_arg0.Position
-			HazeLocalChangerLol179_ = HazeLocalChangerLol175_.Position
-			HazeLocalChangerLol183_arg0.Changed:Connect(function()
-				if HazeLocalChangerLol183_arg0.UserInputState == Enum.UserInputState.End then
-					HazeLocalChangerLol176_ = false
+	HazeLocalChangerLol171_.InputBegan:Connect(function(HazeLocalChangerLol179_arg0)
+		if HazeLocalChangerLol179_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol179_arg0.UserInputType == Enum.UserInputType.Touch then
+			HazeLocalChangerLol172_ = true
+			HazeLocalChangerLol174_ = HazeLocalChangerLol179_arg0.Position
+			HazeLocalChangerLol175_ = HazeLocalChangerLol171_.Position
+			HazeLocalChangerLol179_arg0.Changed:Connect(function()
+				if HazeLocalChangerLol179_arg0.UserInputState == Enum.UserInputState.End then
+					HazeLocalChangerLol172_ = false
 				end
 			end)
 		end
 	end)
-	HazeLocalChangerLol175_.InputChanged:Connect(function(HazeLocalChangerLol184_arg0)
-		if HazeLocalChangerLol184_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol184_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol177_ = HazeLocalChangerLol184_arg0
+	HazeLocalChangerLol171_.InputChanged:Connect(function(HazeLocalChangerLol180_arg0)
+		if HazeLocalChangerLol180_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol180_arg0.UserInputType == Enum.UserInputType.Touch then
+			HazeLocalChangerLol173_ = HazeLocalChangerLol180_arg0
 		end
 	end)
-	HazeLocalChangerLol174_.InputChanged:Connect(function(HazeLocalChangerLol185_arg0)
-		if HazeLocalChangerLol185_arg0 == HazeLocalChangerLol177_ and HazeLocalChangerLol176_ then
-			HazeLocalChangerLol180_func(HazeLocalChangerLol185_arg0)
+	HazeLocalChangerLol170_.InputChanged:Connect(function(HazeLocalChangerLol181_arg0)
+		if HazeLocalChangerLol181_arg0 == HazeLocalChangerLol173_ and HazeLocalChangerLol172_ then
+			HazeLocalChangerLol176_func(HazeLocalChangerLol181_arg0)
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol129_func)()
-local function HazeLocalChangerLol130_func() -- Toggle.Script
-	local HazeLocalChangerLol186_ = Instance.new('LocalScript', HazeLocalChangerLol58_)
-	local HazeLocalChangerLol187_ = false -- The start state of the toggle
-	local HazeLocalChangerLol188_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol186_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol188_ == false then
-			if HazeLocalChangerLol187_ == true then -- If the toggle is already on
-				HazeLocalChangerLol188_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol186_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol128_func)()
+local function HazeLocalChangerLol129_func() -- Toggle.Script
+	local HazeLocalChangerLol182_ = Instance.new('LocalScript', HazeLocalChangerLol58_)
+	local HazeLocalChangerLol183_ = false -- The start state of the toggle
+	local HazeLocalChangerLol184_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol182_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol184_ == false then
+			if HazeLocalChangerLol183_ == true then -- If the toggle is already on
+				HazeLocalChangerLol184_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol186_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol188_ = false
-				HazeLocalChangerLol187_ = false
+				HazeLocalChangerLol184_ = false
+				HazeLocalChangerLol183_ = false
 				shared.MoneyFarm = false
-			elseif HazeLocalChangerLol187_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol188_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol186_.Parent, TweenInfo.new(0.25), {
+			elseif HazeLocalChangerLol183_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol184_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol186_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol188_ = false
-				HazeLocalChangerLol187_ = true
+				HazeLocalChangerLol184_ = false
+				HazeLocalChangerLol183_ = true
 				if login == true then
                 -- Naked
-					local HazeLocalChangerLol189_ = game:GetService("Players").LocalPlayer.Character.Humanoid
+					local HazeLocalChangerLol185_ = game:GetService("Players").LocalPlayer.Character.Humanoid
 					pcall(function()
-						HazeLocalChangerLol189_.Parent.Pants:Destroy()
+						HazeLocalChangerLol185_.Parent.Pants:Destroy()
 					end)
 					pcall(function()
-						HazeLocalChangerLol189_.Parent.Shirt:Destroy()
+						HazeLocalChangerLol185_.Parent.Shirt:Destroy()
 					end)
     
     
@@ -1441,16 +1408,16 @@ local function HazeLocalChangerLol130_func() -- Toggle.Script
 					repeat
 						wait()
 					until game:IsLoaded()
-					local HazeLocalChangerLol190_ = getrawmetatable(game)
-					setreadonly(HazeLocalChangerLol190_, false)
-					local HazeLocalChangerLol191_ = HazeLocalChangerLol190_.__namecall
-					HazeLocalChangerLol190_.__namecall =
+					local HazeLocalChangerLol186_ = getrawmetatable(game)
+					setreadonly(HazeLocalChangerLol186_, false)
+					local HazeLocalChangerLol187_ = HazeLocalChangerLol186_.__namecall
+					HazeLocalChangerLol186_.__namecall =
                     newcclosure(
-                        function(HazeLocalChangerLol193_arg0, ...)
-						local HazeLocalChangerLol194_ = {
+                        function(HazeLocalChangerLol189_arg0, ...)
+						local HazeLocalChangerLol190_ = {
 							...
 						}
-						if not checkcaller() and getnamecallmethod() == "FireServer" and tostring(HazeLocalChangerLol193_arg0) == "MainEvent" then
+						if not checkcaller() and getnamecallmethod() == "FireServer" and tostring(HazeLocalChangerLol189_arg0) == "MainEvent" then
 							if tostring(getcallingscript()) ~= "Framework" then
 								return
 							end
@@ -1458,62 +1425,62 @@ local function HazeLocalChangerLol130_func() -- Toggle.Script
 						if not checkcaller() and getnamecallmethod() == "Kick" then
 							return
 						end
-						return HazeLocalChangerLol191_(HazeLocalChangerLol193_arg0, unpack(HazeLocalChangerLol194_))
+						return HazeLocalChangerLol187_(HazeLocalChangerLol189_arg0, unpack(HazeLocalChangerLol190_))
 					end
                     )
-					local HazeLocalChangerLol192_ = game:GetService("Players").LocalPlayer
+					local HazeLocalChangerLol188_ = game:GetService("Players").LocalPlayer
 					function gettarget()
-						local HazeLocalChangerLol195_ = HazeLocalChangerLol192_.Character or HazeLocalChangerLol192_.CharacterAdded:wait()
-						local HazeLocalChangerLol196_ = HazeLocalChangerLol195_:WaitForChild("HumanoidRootPart") -- Getting Humanoid.
-						local HazeLocalChangerLol197_ = math.huge
-						local HazeLocalChangerLol198_
-						for HazeLocalChangerLol199_forvar0, HazeLocalChangerLol200_forvar1 in pairs(game:GetService("Workspace").Cashiers:GetChildren()) do
-							if HazeLocalChangerLol200_forvar1:FindFirstChild("Head") and HazeLocalChangerLol200_forvar1:FindFirstChild("Humanoid") and HazeLocalChangerLol200_forvar1.Humanoid.Health > 0 then -- This is set to head as you can only tp to head
-								local HazeLocalChangerLol201_ = (HazeLocalChangerLol196_.Position - HazeLocalChangerLol200_forvar1.Head.Position).magnitude
-								if HazeLocalChangerLol201_ < HazeLocalChangerLol197_ then
-									HazeLocalChangerLol198_ = HazeLocalChangerLol200_forvar1
-									HazeLocalChangerLol197_ = HazeLocalChangerLol201_
+						local HazeLocalChangerLol191_ = HazeLocalChangerLol188_.Character or HazeLocalChangerLol188_.CharacterAdded:wait()
+						local HazeLocalChangerLol192_ = HazeLocalChangerLol191_:WaitForChild("HumanoidRootPart") -- Getting Humanoid.
+						local HazeLocalChangerLol193_ = math.huge
+						local HazeLocalChangerLol194_
+						for HazeLocalChangerLol195_forvar0, HazeLocalChangerLol196_forvar1 in pairs(game:GetService("Workspace").Cashiers:GetChildren()) do
+							if HazeLocalChangerLol196_forvar1:FindFirstChild("Head") and HazeLocalChangerLol196_forvar1:FindFirstChild("Humanoid") and HazeLocalChangerLol196_forvar1.Humanoid.Health > 0 then -- This is set to head as you can only tp to head
+								local HazeLocalChangerLol197_ = (HazeLocalChangerLol192_.Position - HazeLocalChangerLol196_forvar1.Head.Position).magnitude
+								if HazeLocalChangerLol197_ < HazeLocalChangerLol193_ then
+									HazeLocalChangerLol194_ = HazeLocalChangerLol196_forvar1
+									HazeLocalChangerLol193_ = HazeLocalChangerLol197_
 								end
 							end
 						end
-						return HazeLocalChangerLol198_
+						return HazeLocalChangerLol194_
 					end
-					for HazeLocalChangerLol202_forvar0, HazeLocalChangerLol203_forvar1 in pairs(workspace:GetDescendants()) do
-						if HazeLocalChangerLol203_forvar1:IsA("Seat") then
-							HazeLocalChangerLol203_forvar1:Destroy() -- Destroys Seating During Farm // Can Be Used As A Script Itself.
+					for HazeLocalChangerLol198_forvar0, HazeLocalChangerLol199_forvar1 in pairs(workspace:GetDescendants()) do
+						if HazeLocalChangerLol199_forvar1:IsA("Seat") then
+							HazeLocalChangerLol199_forvar1:Destroy() -- Destroys Seating During Farm // Can Be Used As A Script Itself.
 						end
 					end
 					shared.MoneyFarm = true -- Vice Versa // Set To False To Stop Autofarming (Can Be In Same Button)
 					while shared.MoneyFarm do
 						game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Atm Farm Unpatched (Free) ", "All") -- Creates A Text every single time you get to a new atm
 						wait()
-						local HazeLocalChangerLol204_ = gettarget()
+						local HazeLocalChangerLol200_ = gettarget()
 						repeat
 							wait()
 							pcall(
                             function()
-								local HazeLocalChangerLol205_ = HazeLocalChangerLol192_.Character or HazeLocalChangerLol192_.CharacterAdded:wait()
-								local HazeLocalChangerLol206_ = HazeLocalChangerLol205_:WaitForChild("HumanoidRootPart")
-								local HazeLocalChangerLol207_ = HazeLocalChangerLol192_.Backpack:FindFirstChild("Combat") or HazeLocalChangerLol205_:FindFirstChild("Combat") -- Finding Fist // Set To Wallet For Test. -- Revolver // Double Shotgun // Combat Etc
-								if not HazeLocalChangerLol207_ then
-									HazeLocalChangerLol205_:FindFirstChild("Humanoid").Health = 0
+								local HazeLocalChangerLol201_ = HazeLocalChangerLol188_.Character or HazeLocalChangerLol188_.CharacterAdded:wait()
+								local HazeLocalChangerLol202_ = HazeLocalChangerLol201_:WaitForChild("HumanoidRootPart")
+								local HazeLocalChangerLol203_ = HazeLocalChangerLol188_.Backpack:FindFirstChild("Combat") or HazeLocalChangerLol201_:FindFirstChild("Combat") -- Finding Fist // Set To Wallet For Test. -- Revolver // Double Shotgun // Combat Etc
+								if not HazeLocalChangerLol203_ then
+									HazeLocalChangerLol201_:FindFirstChild("Humanoid").Health = 0
 									return
 								end
-								HazeLocalChangerLol206_.CFrame = HazeLocalChangerLol204_.Head.CFrame * CFrame.new(0, -2.5, 3) -- Cframe tp (dont change it tps you perfeclty infront of the atm)
-								HazeLocalChangerLol207_.Parent = HazeLocalChangerLol205_
-								HazeLocalChangerLol207_:Activate() -- Pulls out fists
+								HazeLocalChangerLol202_.CFrame = HazeLocalChangerLol200_.Head.CFrame * CFrame.new(0, -2.5, 3) -- Cframe tp (dont change it tps you perfeclty infront of the atm)
+								HazeLocalChangerLol203_.Parent = HazeLocalChangerLol201_
+								HazeLocalChangerLol203_:Activate() -- Pulls out fists
 							end
                         )
-						until not HazeLocalChangerLol204_ or HazeLocalChangerLol204_.Humanoid.Health < 0
-						for HazeLocalChangerLol208_forvar0, HazeLocalChangerLol209_forvar1 in pairs(game:GetService("Workspace").Ignored.Drop:GetDescendants()) do
-							if HazeLocalChangerLol209_forvar1:IsA("ClickDetector") and HazeLocalChangerLol209_forvar1.Parent and HazeLocalChangerLol209_forvar1.Parent.Name:find("Money") then -- Detecting Money
-								local HazeLocalChangerLol210_ = HazeLocalChangerLol192_.Character or HazeLocalChangerLol192_.CharacterAdded:wait()
-								local HazeLocalChangerLol211_ = HazeLocalChangerLol210_:WaitForChild("HumanoidRootPart")
-								if (HazeLocalChangerLol209_forvar1.Parent.Position - HazeLocalChangerLol211_.Position).magnitude <= 18 then
+						until not HazeLocalChangerLol200_ or HazeLocalChangerLol200_.Humanoid.Health < 0
+						for HazeLocalChangerLol204_forvar0, HazeLocalChangerLol205_forvar1 in pairs(game:GetService("Workspace").Ignored.Drop:GetDescendants()) do
+							if HazeLocalChangerLol205_forvar1:IsA("ClickDetector") and HazeLocalChangerLol205_forvar1.Parent and HazeLocalChangerLol205_forvar1.Parent.Name:find("Money") then -- Detecting Money
+								local HazeLocalChangerLol206_ = HazeLocalChangerLol188_.Character or HazeLocalChangerLol188_.CharacterAdded:wait()
+								local HazeLocalChangerLol207_ = HazeLocalChangerLol206_:WaitForChild("HumanoidRootPart")
+								if (HazeLocalChangerLol205_forvar1.Parent.Position - HazeLocalChangerLol207_.Position).magnitude <= 18 then
 									repeat
 										wait()
-										fireclickdetector(HazeLocalChangerLol209_forvar1)
-									until not HazeLocalChangerLol209_forvar1 or not HazeLocalChangerLol209_forvar1.Parent.Parent
+										fireclickdetector(HazeLocalChangerLol205_forvar1)
+									until not HazeLocalChangerLol205_forvar1 or not HazeLocalChangerLol205_forvar1.Parent.Parent
 								end
 							end
 						end
@@ -1525,37 +1492,37 @@ local function HazeLocalChangerLol130_func() -- Toggle.Script
 	end)
     
 end
-coroutine.wrap(HazeLocalChangerLol130_func)()
-local function HazeLocalChangerLol131_func() -- Toggle_2.Script
-	local HazeLocalChangerLol212_ = Instance.new('LocalScript', HazeLocalChangerLol62_)
-	local HazeLocalChangerLol213_ = false -- The start state of the toggle
-	local HazeLocalChangerLol214_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol212_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol214_ == false then
-			if HazeLocalChangerLol213_ == true then -- If the toggle is already on
-				HazeLocalChangerLol214_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol212_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol129_func)()
+local function HazeLocalChangerLol130_func() -- Toggle_2.Script
+	local HazeLocalChangerLol208_ = Instance.new('LocalScript', HazeLocalChangerLol62_)
+	local HazeLocalChangerLol209_ = false -- The start state of the toggle
+	local HazeLocalChangerLol210_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol208_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol210_ == false then
+			if HazeLocalChangerLol209_ == true then -- If the toggle is already on
+				HazeLocalChangerLol210_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol208_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol212_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol208_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol214_ = false
-				HazeLocalChangerLol213_ = false
+				HazeLocalChangerLol210_ = false
+				HazeLocalChangerLol209_ = false
 				getgenv().shoefarm = false
 				game.Players.LocalPlayer.Character.Humanoid:Destroy()
-			elseif HazeLocalChangerLol213_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol214_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol212_.Parent, TweenInfo.new(0.25), {
+			elseif HazeLocalChangerLol209_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol210_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol208_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol212_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol208_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol214_ = false
-				HazeLocalChangerLol213_ = true
+				HazeLocalChangerLol210_ = false
+				HazeLocalChangerLol209_ = true
                 -- Shoe Farm By Haze
 				getgenv().shoefarm = true
 				coroutine.wrap(function()
@@ -1566,16 +1533,16 @@ local function HazeLocalChangerLol131_func() -- Toggle_2.Script
 				end)()
 				while getgenv().shoefarm == true do
 					wait()
-					for HazeLocalChangerLol215_forvar0, HazeLocalChangerLol216_forvar1 in pairs(game.Workspace.Ignored.Drop:GetChildren()) do
-						if HazeLocalChangerLol216_forvar1:IsA("MeshPart") then
-							local HazeLocalChangerLol217_ = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - HazeLocalChangerLol216_forvar1.Position).magnitude
-							if HazeLocalChangerLol217_ < 200 then
+					for HazeLocalChangerLol211_forvar0, HazeLocalChangerLol212_forvar1 in pairs(game.Workspace.Ignored.Drop:GetChildren()) do
+						if HazeLocalChangerLol212_forvar1:IsA("MeshPart") then
+							local HazeLocalChangerLol213_ = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - HazeLocalChangerLol212_forvar1.Position).magnitude
+							if HazeLocalChangerLol213_ < 200 then
 								wait(0.1)
-								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol216_forvar1.CFrame * CFrame.new(-5, 0, 0)
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol212_forvar1.CFrame * CFrame.new(-5, 0, 0)
 								wait(0.1)
-								fireclickdetector(HazeLocalChangerLol216_forvar1.ClickDetector)
+								fireclickdetector(HazeLocalChangerLol212_forvar1.ClickDetector)
 							else
-								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol216_forvar1.CFrame * CFrame.new(-5, 0, 0)
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol212_forvar1.CFrame * CFrame.new(-5, 0, 0)
 							end
 						end
 					end
@@ -1590,36 +1557,36 @@ local function HazeLocalChangerLol131_func() -- Toggle_2.Script
 	end)
     
 end
-coroutine.wrap(HazeLocalChangerLol131_func)()
-local function HazeLocalChangerLol132_func() -- Toggle_3.Script
-	local HazeLocalChangerLol218_ = Instance.new('LocalScript', HazeLocalChangerLol66_)
-	local HazeLocalChangerLol219_ = false -- The start state of the toggle
-	local HazeLocalChangerLol220_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol218_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol220_ == false then
-			if HazeLocalChangerLol219_ == true then -- If the toggle is already on
-				HazeLocalChangerLol220_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol218_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol130_func)()
+local function HazeLocalChangerLol131_func() -- Toggle_3.Script
+	local HazeLocalChangerLol214_ = Instance.new('LocalScript', HazeLocalChangerLol66_)
+	local HazeLocalChangerLol215_ = false -- The start state of the toggle
+	local HazeLocalChangerLol216_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol214_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol216_ == false then
+			if HazeLocalChangerLol215_ == true then -- If the toggle is already on
+				HazeLocalChangerLol216_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol214_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol218_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol214_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol220_ = false
-				HazeLocalChangerLol219_ = false
+				HazeLocalChangerLol216_ = false
+				HazeLocalChangerLol215_ = false
 				_G.toggle = false
-			elseif HazeLocalChangerLol219_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol220_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol218_.Parent, TweenInfo.new(0.25), {
+			elseif HazeLocalChangerLol215_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol216_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol214_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol218_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol214_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol220_ = false
-				HazeLocalChangerLol219_ = true
+				HazeLocalChangerLol216_ = false
+				HazeLocalChangerLol215_ = true
                 --BROUGHT TO YOU BY RSCRIPTS.NET!--
 				_G.toggle = true -- if you want to turn it off change to false and re-execute
 				game:getService("RunService"):BindToRenderStep(
@@ -1640,28 +1607,28 @@ local function HazeLocalChangerLol132_func() -- Toggle_3.Script
 					if _G.toggle == true then
 						pcall(
                             function()
-							for HazeLocalChangerLol222_forvar0, HazeLocalChangerLol223_forvar1 in pairs(game:GetService("Workspace").Ignored.HospitalJob:GetChildren()) do
-								if HazeLocalChangerLol223_forvar1:IsA("Model") then
-									_G.patient = HazeLocalChangerLol223_forvar1.Name
+							for HazeLocalChangerLol218_forvar0, HazeLocalChangerLol219_forvar1 in pairs(game:GetService("Workspace").Ignored.HospitalJob:GetChildren()) do
+								if HazeLocalChangerLol219_forvar1:IsA("Model") then
+									_G.patient = HazeLocalChangerLol219_forvar1.Name
 									game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame =
-                                            game.Workspace.Ignored.HospitalJob[HazeLocalChangerLol223_forvar1.Name].HumanoidRootPart.CFrame *
+                                            game.Workspace.Ignored.HospitalJob[HazeLocalChangerLol219_forvar1.Name].HumanoidRootPart.CFrame *
                                             CFrame.new(Vector3.new(0, -6.5, 0), Vector3.new(0, 100, 0))
 								end
 							end
-							for HazeLocalChangerLol224_forvar0, HazeLocalChangerLol225_forvar1 in pairs(game.Workspace.Ignored.HospitalJob:GetChildren()) do
-								if HazeLocalChangerLol225_forvar1.Name == "Can I get the Red bottle" then
-									local HazeLocalChangerLol226_ = game.Workspace.Ignored.HospitalJob.Red.ClickDetector
-									fireclickdetector(HazeLocalChangerLol226_)
-								elseif HazeLocalChangerLol225_forvar1.Name == "Can I get the Blue bottle" then
-									local HazeLocalChangerLol227_ = game.Workspace.Ignored.HospitalJob.Blue.ClickDetector
-									fireclickdetector(HazeLocalChangerLol227_)
-								elseif HazeLocalChangerLol225_forvar1.Name == "Can I get the Green bottle" then
-									local HazeLocalChangerLol228_ = game.Workspace.Ignored.HospitalJob.Green.ClickDetector
-									fireclickdetector(HazeLocalChangerLol228_)
+							for HazeLocalChangerLol220_forvar0, HazeLocalChangerLol221_forvar1 in pairs(game.Workspace.Ignored.HospitalJob:GetChildren()) do
+								if HazeLocalChangerLol221_forvar1.Name == "Can I get the Red bottle" then
+									local HazeLocalChangerLol222_ = game.Workspace.Ignored.HospitalJob.Red.ClickDetector
+									fireclickdetector(HazeLocalChangerLol222_)
+								elseif HazeLocalChangerLol221_forvar1.Name == "Can I get the Blue bottle" then
+									local HazeLocalChangerLol223_ = game.Workspace.Ignored.HospitalJob.Blue.ClickDetector
+									fireclickdetector(HazeLocalChangerLol223_)
+								elseif HazeLocalChangerLol221_forvar1.Name == "Can I get the Green bottle" then
+									local HazeLocalChangerLol224_ = game.Workspace.Ignored.HospitalJob.Green.ClickDetector
+									fireclickdetector(HazeLocalChangerLol224_)
 								end
 							end
-							local HazeLocalChangerLol221_ = game:GetService("Workspace").Ignored.HospitalJob[_G.patient].ClickDetector
-							fireclickdetector(HazeLocalChangerLol221_)
+							local HazeLocalChangerLol217_ = game:GetService("Workspace").Ignored.HospitalJob[_G.patient].ClickDetector
+							fireclickdetector(HazeLocalChangerLol217_)
 						end
                         )
 					elseif _G.toggle == false then
@@ -1673,53 +1640,110 @@ local function HazeLocalChangerLol132_func() -- Toggle_3.Script
 	end)
     
 end
-coroutine.wrap(HazeLocalChangerLol132_func)()
-local function HazeLocalChangerLol133_func() -- Toggle_4.Script
-	local HazeLocalChangerLol229_ = Instance.new('LocalScript', HazeLocalChangerLol70_)
-	local HazeLocalChangerLol230_ = false -- The start state of the toggle
-	local HazeLocalChangerLol231_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	local HazeLocalChangerLol232_ = game.Players.LocalPlayer
-	HazeLocalChangerLol229_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol231_ == false then
-			if HazeLocalChangerLol230_ == true then -- If the toggle is already on
-				HazeLocalChangerLol231_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol229_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol131_func)()
+local function HazeLocalChangerLol132_func() -- Toggle_4.Script
+	local HazeLocalChangerLol225_ = Instance.new('LocalScript', HazeLocalChangerLol70_)
+	local HazeLocalChangerLol226_ = false -- The start state of the toggle
+	local HazeLocalChangerLol227_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	local HazeLocalChangerLol228_ = game.Players.LocalPlayer
+	HazeLocalChangerLol225_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol227_ == false then
+			if HazeLocalChangerLol226_ == true then -- If the toggle is already on
+				HazeLocalChangerLol227_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol225_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol229_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol225_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol231_ = false
-				HazeLocalChangerLol230_ = false
-				HazeLocalChangerLol232_.Character["[Lettuce]"]:Activate()
-			elseif HazeLocalChangerLol230_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol231_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol229_.Parent, TweenInfo.new(0.25), {
+				HazeLocalChangerLol227_ = false
+				HazeLocalChangerLol226_ = false
+				HazeLocalChangerLol228_.Character["[Lettuce]"]:Activate()
+			elseif HazeLocalChangerLol226_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol227_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol225_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol229_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol225_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol231_ = false
-				HazeLocalChangerLol230_ = true
-				local HazeLocalChangerLol233_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
+				HazeLocalChangerLol227_ = false
+				HazeLocalChangerLol226_ = true
+				local HazeLocalChangerLol229_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
     
                 
                 ----------------------------------- | Don't worry about the rest
-				local HazeLocalChangerLol234_ = game:GetService("Workspace").Ignored.Shop["[Lettuce] - $5"]
-				local HazeLocalChangerLol235_ = true
-				HazeLocalChangerLol232_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol234_.Head.CFrame
-				fireclickdetector(HazeLocalChangerLol234_.ClickDetector)
-				HazeLocalChangerLol232_.Backpack["[Lettuce]"].Parent = HazeLocalChangerLol232_.Character
-				HazeLocalChangerLol235_ = true
-				while HazeLocalChangerLol235_ do
-					fireclickdetector(HazeLocalChangerLol234_.ClickDetector)
-					HazeLocalChangerLol232_.Character["[Lettuce]"]:Activate()
-					if HazeLocalChangerLol233_ then
-						HazeLocalChangerLol232_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
+				local HazeLocalChangerLol230_ = game:GetService("Workspace").Ignored.Shop["[Lettuce] - $5"]
+				local HazeLocalChangerLol231_ = true
+				HazeLocalChangerLol228_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol230_.Head.CFrame
+				fireclickdetector(HazeLocalChangerLol230_.ClickDetector)
+				HazeLocalChangerLol228_.Backpack["[Lettuce]"].Parent = HazeLocalChangerLol228_.Character
+				HazeLocalChangerLol231_ = true
+				while HazeLocalChangerLol231_ do
+					fireclickdetector(HazeLocalChangerLol230_.ClickDetector)
+					HazeLocalChangerLol228_.Character["[Lettuce]"]:Activate()
+					if HazeLocalChangerLol229_ then
+						HazeLocalChangerLol228_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
 					end
+					wait()
+				end
+			end --When true
+		end
+	end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol132_func)()
+local function HazeLocalChangerLol133_func() -- Toggle_5.Script
+	local HazeLocalChangerLol232_ = Instance.new('LocalScript', HazeLocalChangerLol74_)
+	local HazeLocalChangerLol233_ = false -- The start state of the toggle
+	local HazeLocalChangerLol234_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol232_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol234_ == false then
+			if HazeLocalChangerLol233_ == true then -- If the toggle is already on
+				HazeLocalChangerLol234_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent, TweenInfo.new(0.25), {
+					ImageColor3 = Color3.fromRGB(31, 31, 31)
+				}):Play()
+				game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent.Circle, TweenInfo.new(0.25), {
+					Position = UDim2.new(0, 4, 0, 3)
+				}):Play()
+				wait(0.25)
+				HazeLocalChangerLol234_ = false
+				HazeLocalChangerLol233_ = false
+				getgenv().shoefarm = false
+				game.Players.LocalPlayer.Character.Humanoid:Destroy()
+			elseif HazeLocalChangerLol233_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol234_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent, TweenInfo.new(0.25), {
+					ImageColor3 = Color3.fromRGB(94, 105, 255)
+				}):Play()
+				game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent.Circle, TweenInfo.new(0.25), {
+					Position = UDim2.new(0, 18, 0, 3)
+				}):Play()
+				wait(0.25)
+				HazeLocalChangerLol234_ = false
+				HazeLocalChangerLol233_ = true
+				local HazeLocalChangerLol235_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
+    
+    
+                ----------------------------------- | Don't worry about the rest
+				local HazeLocalChangerLol236_ = game.Players.LocalPlayer
+				local HazeLocalChangerLol237_ = game:GetService("Workspace").Ignored.Shop["[HeavyWeights] - $250"]
+				local HazeLocalChangerLol238_ = false
+				HazeLocalChangerLol236_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol237_.Head.CFrame
+				wait(0.5)
+				fireclickdetector(HazeLocalChangerLol237_.ClickDetector)
+				wait(1)
+				HazeLocalChangerLol236_.Backpack["[HeavyWeights]"].Parent = HazeLocalChangerLol236_.Character
+				wait(1)
+				HazeLocalChangerLol238_ = true
+				while HazeLocalChangerLol238_ do
+					if HazeLocalChangerLol235_ then
+						HazeLocalChangerLol236_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
+					end
+					HazeLocalChangerLol236_.Character["[HeavyWeights]"]:Activate()
 					wait()
 				end
 			end --When true
@@ -1728,65 +1752,50 @@ local function HazeLocalChangerLol133_func() -- Toggle_4.Script
     
 end
 coroutine.wrap(HazeLocalChangerLol133_func)()
-local function HazeLocalChangerLol134_func() -- Toggle_5.Script
-	local HazeLocalChangerLol236_ = Instance.new('LocalScript', HazeLocalChangerLol74_)
-	local HazeLocalChangerLol237_ = false -- The start state of the toggle
-	local HazeLocalChangerLol238_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol236_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol238_ == false then
-			if HazeLocalChangerLol237_ == true then -- If the toggle is already on
-				HazeLocalChangerLol238_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol236_.Parent, TweenInfo.new(0.25), {
+local function HazeLocalChangerLol134_func() -- Toggle_6.Script
+	local HazeLocalChangerLol239_ = Instance.new('LocalScript', HazeLocalChangerLol83_)
+	local HazeLocalChangerLol240_ = false -- The start state of the toggle
+	local HazeLocalChangerLol241_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol239_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol241_ == false then
+			if HazeLocalChangerLol240_ == true then -- If the toggle is already on
+				HazeLocalChangerLol241_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol236_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol238_ = false
-				HazeLocalChangerLol237_ = false
-				getgenv().shoefarm = false
-				game.Players.LocalPlayer.Character.Humanoid:Destroy()
-			elseif HazeLocalChangerLol237_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol238_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol236_.Parent, TweenInfo.new(0.25), {
+				HazeLocalChangerLol241_ = false
+				HazeLocalChangerLol240_ = false
+				print("OFF")
+			elseif HazeLocalChangerLol240_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol241_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol236_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol238_ = false
-				HazeLocalChangerLol237_ = true
-				local HazeLocalChangerLol239_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
-    
-    
-                ----------------------------------- | Don't worry about the rest
-				local HazeLocalChangerLol240_ = game.Players.LocalPlayer
-				local HazeLocalChangerLol241_ = game:GetService("Workspace").Ignored.Shop["[HeavyWeights] - $250"]
-				local HazeLocalChangerLol242_ = false
-				HazeLocalChangerLol240_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol241_.Head.CFrame
-				wait(0.5)
-				fireclickdetector(HazeLocalChangerLol241_.ClickDetector)
-				wait(1)
-				HazeLocalChangerLol240_.Backpack["[HeavyWeights]"].Parent = HazeLocalChangerLol240_.Character
-				wait(1)
-				HazeLocalChangerLol242_ = true
-				while HazeLocalChangerLol242_ do
-					if HazeLocalChangerLol239_ then
-						HazeLocalChangerLol240_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
-					end
-					HazeLocalChangerLol240_.Character["[HeavyWeights]"]:Activate()
-					wait()
-				end
+				HazeLocalChangerLol241_ = false
+				HazeLocalChangerLol240_ = true
+                --Anti Afk
+				local HazeLocalChangerLol242_ = game:GetService("VirtualUser")
+				game:GetService("Players").LocalPlayer.Idled:connect(function()
+					HazeLocalChangerLol242_:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+					wait(1)
+					HazeLocalChangerLol242_:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+				end)
 			end --When true
 		end
 	end)
     
 end
 coroutine.wrap(HazeLocalChangerLol134_func)()
-local function HazeLocalChangerLol135_func() -- Toggle_6.Script
-	local HazeLocalChangerLol243_ = Instance.new('LocalScript', HazeLocalChangerLol83_)
+local function HazeLocalChangerLol135_func() -- Toggle_7.Script
+	local HazeLocalChangerLol243_ = Instance.new('LocalScript', HazeLocalChangerLol87_)
 	local HazeLocalChangerLol244_ = false -- The start state of the toggle
 	local HazeLocalChangerLol245_ = false -- Debounce / cooldown so you cant spam the toggle and break it
 	HazeLocalChangerLol243_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
@@ -1802,7 +1811,6 @@ local function HazeLocalChangerLol135_func() -- Toggle_6.Script
 				wait(0.25)
 				HazeLocalChangerLol245_ = false
 				HazeLocalChangerLol244_ = false
-				print("OFF")
 			elseif HazeLocalChangerLol244_ == false then -- If the toggle isnt already on
 				HazeLocalChangerLol245_ = true
 				game:GetService("TweenService"):Create(HazeLocalChangerLol243_.Parent, TweenInfo.new(0.25), {
@@ -1814,63 +1822,22 @@ local function HazeLocalChangerLol135_func() -- Toggle_6.Script
 				wait(0.25)
 				HazeLocalChangerLol245_ = false
 				HazeLocalChangerLol244_ = true
-                --Anti Afk
-				local HazeLocalChangerLol246_ = game:GetService("VirtualUser")
-				game:GetService("Players").LocalPlayer.Idled:connect(function()
-					HazeLocalChangerLol246_:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-					wait(1)
-					HazeLocalChangerLol246_:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-				end)
-			end --When true
-		end
-	end)
-    
-end
-coroutine.wrap(HazeLocalChangerLol135_func)()
-local function HazeLocalChangerLol136_func() -- Toggle_7.Script
-	local HazeLocalChangerLol247_ = Instance.new('LocalScript', HazeLocalChangerLol87_)
-	local HazeLocalChangerLol248_ = false -- The start state of the toggle
-	local HazeLocalChangerLol249_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol247_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol249_ == false then
-			if HazeLocalChangerLol248_ == true then -- If the toggle is already on
-				HazeLocalChangerLol249_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol247_.Parent, TweenInfo.new(0.25), {
-					ImageColor3 = Color3.fromRGB(31, 31, 31)
-				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol247_.Parent.Circle, TweenInfo.new(0.25), {
-					Position = UDim2.new(0, 4, 0, 3)
-				}):Play()
-				wait(0.25)
-				HazeLocalChangerLol249_ = false
-				HazeLocalChangerLol248_ = false
-			elseif HazeLocalChangerLol248_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol249_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol247_.Parent, TweenInfo.new(0.25), {
-					ImageColor3 = Color3.fromRGB(94, 105, 255)
-				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol247_.Parent.Circle, TweenInfo.new(0.25), {
-					Position = UDim2.new(0, 18, 0, 3)
-				}):Play()
-				wait(0.25)
-				HazeLocalChangerLol249_ = false
-				HazeLocalChangerLol248_ = true
 				if login == true then
 					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loading ", "All")
 					wait(2)
 					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loaded ", "All")
 					wait(1)
 					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Dont Leave Be Patient :)", "All")
-					local HazeLocalChangerLol250_ = 'Wallet'
-					local HazeLocalChangerLol251_ = game.Players.LocalPlayer
-					local HazeLocalChangerLol252_ = HazeLocalChangerLol251_.Character
-					local HazeLocalChangerLol253_ = HazeLocalChangerLol251_.Backpack
+					local HazeLocalChangerLol246_ = 'Wallet'
+					local HazeLocalChangerLol247_ = game.Players.LocalPlayer
+					local HazeLocalChangerLol248_ = HazeLocalChangerLol247_.Character
+					local HazeLocalChangerLol249_ = HazeLocalChangerLol247_.Backpack
 					game["Run Service"].Stepped:Connect(function()
 						game["Run Service"].Stepped:Connect(function()
-							if HazeLocalChangerLol252_:FindFirstChild(HazeLocalChangerLol250_) then
-								HazeLocalChangerLol252_:FindFirstChild(HazeLocalChangerLol250_).Parent = HazeLocalChangerLol253_
+							if HazeLocalChangerLol248_:FindFirstChild(HazeLocalChangerLol246_) then
+								HazeLocalChangerLol248_:FindFirstChild(HazeLocalChangerLol246_).Parent = HazeLocalChangerLol249_
 							else
-								HazeLocalChangerLol253_:FindFirstChild(HazeLocalChangerLol250_).Parent = HazeLocalChangerLol252_
+								HazeLocalChangerLol249_:FindFirstChild(HazeLocalChangerLol246_).Parent = HazeLocalChangerLol248_
 							end
 						end)
 					end)
@@ -1880,90 +1847,130 @@ local function HazeLocalChangerLol136_func() -- Toggle_7.Script
 	end)
     
 end
-coroutine.wrap(HazeLocalChangerLol136_func)()
-local function HazeLocalChangerLol137_func() -- Toggle_8.Script
-	local HazeLocalChangerLol254_ = Instance.new('LocalScript', HazeLocalChangerLol91_)
-	local HazeLocalChangerLol255_ = false -- The start state of the toggle
-	local HazeLocalChangerLol256_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol254_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol256_ == false then
-			if HazeLocalChangerLol255_ == true then -- If the toggle is already on
-				HazeLocalChangerLol256_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol254_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol135_func)()
+local function HazeLocalChangerLol136_func() -- Toggle_8.Script
+	local HazeLocalChangerLol250_ = Instance.new('LocalScript', HazeLocalChangerLol91_)
+	local HazeLocalChangerLol251_ = false -- The start state of the toggle
+	local HazeLocalChangerLol252_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol250_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol252_ == false then
+			if HazeLocalChangerLol251_ == true then -- If the toggle is already on
+				HazeLocalChangerLol252_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol250_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol254_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol250_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol256_ = false
-				HazeLocalChangerLol255_ = false
-			elseif HazeLocalChangerLol255_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol256_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol254_.Parent, TweenInfo.new(0.25), {
+				HazeLocalChangerLol252_ = false
+				HazeLocalChangerLol251_ = false
+			elseif HazeLocalChangerLol251_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol252_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol250_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol254_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol250_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol256_ = false
-				HazeLocalChangerLol255_ = true
-				local HazeLocalChangerLol257_ = game.Players.LocalPlayer
-				local HazeLocalChangerLol258_ = game:GetService'Players'.LocalPlayer
-				local HazeLocalChangerLol259_ = '[Surgeon Mask] - $25'
-				local HazeLocalChangerLol260_ = game.Workspace.Ignored.Shop[HazeLocalChangerLol259_]
-				local HazeLocalChangerLol261_ = HazeLocalChangerLol258_.Character.HumanoidRootPart.Position
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol260_.Head.CFrame + Vector3.new(0, 3, 0)
+				HazeLocalChangerLol252_ = false
+				HazeLocalChangerLol251_ = true
+				local HazeLocalChangerLol253_ = game.Players.LocalPlayer
+				local HazeLocalChangerLol254_ = game:GetService'Players'.LocalPlayer
+				local HazeLocalChangerLol255_ = '[Surgeon Mask] - $25'
+				local HazeLocalChangerLol256_ = game.Workspace.Ignored.Shop[HazeLocalChangerLol255_]
+				local HazeLocalChangerLol257_ = HazeLocalChangerLol254_.Character.HumanoidRootPart.Position
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol256_.Head.CFrame + Vector3.new(0, 3, 0)
 				wait(0.2)
-				fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol259_].ClickDetector)
-				fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol259_].ClickDetector)
-				HazeLocalChangerLol258_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol261_)
-				HazeLocalChangerLol258_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol261_)
-				HazeLocalChangerLol257_.Character["[Surgeon Mask]"]:Activate()
+				fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol255_].ClickDetector)
+				fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol255_].ClickDetector)
+				HazeLocalChangerLol254_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol257_)
+				HazeLocalChangerLol254_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol257_)
+				HazeLocalChangerLol253_.Character["[Surgeon Mask]"]:Activate()
 			end
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol137_func)()
-local function HazeLocalChangerLol138_func() -- Toggle_9.Script
-	local HazeLocalChangerLol262_ = Instance.new('LocalScript', HazeLocalChangerLol100_)
-	local HazeLocalChangerLol263_ = false -- The start state of the toggle
-	local HazeLocalChangerLol264_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol262_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol264_ == false then
-			if HazeLocalChangerLol263_ == true then -- If the toggle is already on
-				HazeLocalChangerLol264_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol262_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol136_func)()
+local function HazeLocalChangerLol137_func() -- Toggle_9.Script
+	local HazeLocalChangerLol258_ = Instance.new('LocalScript', HazeLocalChangerLol100_)
+	local HazeLocalChangerLol259_ = false -- The start state of the toggle
+	local HazeLocalChangerLol260_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol258_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol260_ == false then
+			if HazeLocalChangerLol259_ == true then -- If the toggle is already on
+				HazeLocalChangerLol260_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol258_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol262_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol258_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol264_ = false
-				HazeLocalChangerLol263_ = false
+				HazeLocalChangerLol260_ = false
+				HazeLocalChangerLol259_ = false
 				print("OFF")
-			elseif HazeLocalChangerLol263_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol264_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol262_.Parent, TweenInfo.new(0.25), {
+			elseif HazeLocalChangerLol259_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol260_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol258_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(94, 105, 255)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol262_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol258_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 18, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol264_ = false
-				HazeLocalChangerLol263_ = true
+				HazeLocalChangerLol260_ = false
+				HazeLocalChangerLol259_ = true
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Bypasses/main/Da-Hood", true))()
 			end --When true
 		end
 	end)
     
 end
+coroutine.wrap(HazeLocalChangerLol137_func)()
+local function HazeLocalChangerLol138_func() -- Toggle_10.Script
+	local HazeLocalChangerLol261_ = Instance.new('LocalScript', HazeLocalChangerLol104_)
+	local HazeLocalChangerLol262_ = false -- The start state of the toggle
+	local HazeLocalChangerLol263_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol261_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol263_ == false then
+			if HazeLocalChangerLol262_ == true then -- If the toggle is already on
+				HazeLocalChangerLol263_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol261_.Parent, TweenInfo.new(0.25), {
+					ImageColor3 = Color3.fromRGB(31, 31, 31)
+				}):Play()
+				game:GetService("TweenService"):Create(HazeLocalChangerLol261_.Parent.Circle, TweenInfo.new(0.25), {
+					Position = UDim2.new(0, 4, 0, 3)
+				}):Play()
+				wait(0.25)
+				HazeLocalChangerLol263_ = false
+				HazeLocalChangerLol262_ = false
+			elseif HazeLocalChangerLol262_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol263_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol261_.Parent, TweenInfo.new(0.25), {
+					ImageColor3 = Color3.fromRGB(94, 105, 255)
+				}):Play()
+				game:GetService("TweenService"):Create(HazeLocalChangerLol261_.Parent.Circle, TweenInfo.new(0.25), {
+					Position = UDim2.new(0, 18, 0, 3)
+				}):Play()
+				wait(0.25)
+				HazeLocalChangerLol263_ = false
+				HazeLocalChangerLol262_ = true
+				while true do
+					local HazeLocalChangerLol264_ = game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui
+					if HazeLocalChangerLol264_:FindFirstChild("whiteScreen") then
+						HazeLocalChangerLol264_.whiteScreen:Destroy()
+					end
+					wait(0.2)
+				end
+			end
+		end
+	end)
+end
 coroutine.wrap(HazeLocalChangerLol138_func)()
-local function HazeLocalChangerLol139_func() -- Toggle_10.Script
-	local HazeLocalChangerLol265_ = Instance.new('LocalScript', HazeLocalChangerLol104_)
+local function HazeLocalChangerLol139_func() -- Toggle_11.Script
+	local HazeLocalChangerLol265_ = Instance.new('LocalScript', HazeLocalChangerLol108_)
 	local HazeLocalChangerLol266_ = false -- The start state of the toggle
 	local HazeLocalChangerLol267_ = false -- Debounce / cooldown so you cant spam the toggle and break it
 	HazeLocalChangerLol265_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
@@ -1990,110 +1997,70 @@ local function HazeLocalChangerLol139_func() -- Toggle_10.Script
 				wait(0.25)
 				HazeLocalChangerLol267_ = false
 				HazeLocalChangerLol266_ = true
-				while true do
-					local HazeLocalChangerLol268_ = game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui
-					if HazeLocalChangerLol268_:FindFirstChild("whiteScreen") then
-						HazeLocalChangerLol268_.whiteScreen:Destroy()
-					end
-					wait(0.2)
-				end
-			end
-		end
-	end)
-end
-coroutine.wrap(HazeLocalChangerLol139_func)()
-local function HazeLocalChangerLol140_func() -- Toggle_11.Script
-	local HazeLocalChangerLol269_ = Instance.new('LocalScript', HazeLocalChangerLol108_)
-	local HazeLocalChangerLol270_ = false -- The start state of the toggle
-	local HazeLocalChangerLol271_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol269_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol271_ == false then
-			if HazeLocalChangerLol270_ == true then -- If the toggle is already on
-				HazeLocalChangerLol271_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol269_.Parent, TweenInfo.new(0.25), {
-					ImageColor3 = Color3.fromRGB(31, 31, 31)
-				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol269_.Parent.Circle, TweenInfo.new(0.25), {
-					Position = UDim2.new(0, 4, 0, 3)
-				}):Play()
-				wait(0.25)
-				HazeLocalChangerLol271_ = false
-				HazeLocalChangerLol270_ = false
-			elseif HazeLocalChangerLol270_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol271_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol269_.Parent, TweenInfo.new(0.25), {
-					ImageColor3 = Color3.fromRGB(94, 105, 255)
-				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol269_.Parent.Circle, TweenInfo.new(0.25), {
-					Position = UDim2.new(0, 18, 0, 3)
-				}):Play()
-				wait(0.25)
-				HazeLocalChangerLol271_ = false
-				HazeLocalChangerLol270_ = true
 				syn.run_secure_lua("OXbUTZZnKA5ZY1mgnRKzQSMVb/DjEe9EFrsxp6vHfpKyzGfiaWxliCDDO017FSqOSf3xydGiPcVjRxzBkIW62l8AYtSZblG8OQPA1z201BpuZF5rsArUMWHMXTyNkVXsOiTUcepuSjvqP/EJTL0iJ5JIlQyRuZhEJVSBfqmPeMdaz1IWZP7qoZO790hkO/st2qRNF9E2zKYKO6JWxG8XVR88/c18YCv80i3j77mVxT+Xvfqh7Ow9O9TyMyVSAYpDwpq92Cui232ukAw4eV8dYBxRzucCebAYRhBu7s4uG71VYKORfCBqqOOi3iUQMTt9p5MtdwuRJIvt+44+M3wB6jBohpbO8K7LmIZECdkmUzuPKSBlSYofHkH/GlYOw1R+tO1Vg0G+vTjN2qVvFNmLfGapQNiMLx+LJOm34KiPmT+Vi85MwbYyyB/6sabRrTDS8So90g8QCoPmQcectG/GKhZ7P65yqyx1RefKR9VsYgRUaZkeHHzK8BAEjQGp+xJmQphHWj2rIFojoSdLr31J/zpDZQ3SJtkvI7FZyRUsDFUdLwUCvcrD9Qcm3TpVxl1/ZrkEX8yG8aX1FYj9gwDZSEQdet+MASAGNR8PZooQc47u/CEdIH7A/4sim/MRnYl8KDAtmDpI2HD5bDuv6ix84BZ/2hIZaeYE2Q//5JOf1qhDarSf9E5HaPLfoR48l26JP71th2leN4DcxbyHqPJwlwKfktXs7fzY5ihbFUAsM0OGDcAgvlYgl+Oo0x7P+2jBTye2q0wSzlVrOTRT2cGkX5PbP4YiX6TuKSxUJJ8c5DMAjGYg3ijkDEOEf0za9LVGg5w222za1+qHtMwttNV+kvgvhwKgFA+/zijZaeFzRo9bfikvAe3d2W89q0xt61jCdZzA++YIXGKC6oxPJj+9kkjA96nOIgcXQVuCKAjmpmxUKBpk2Tuh0s1WBTzVxkYDxT1wrxLvkRMz+Yz8DZihdRVZf0TLN2/g/4005r51wjYypn+9q1wYNTRMWT5WjoExBt+bhc+nM6MnHFFUq2gMRUO9tRD3x3raLmVxvQUyzJCN9r5ZO/KN3POwL1jrdpA8zMAR+EOjZdIKNj9tuNhkCZXo3qyTMvVoot1vbWlKE4m2qbhmChtTdjEC9tK/Ri0sblna6mWY29QAyvD5HPPXE0ABWW4O6wx7RAn9CRtI+blt/Nn7KULd/JAecNUPrPs2znm7B+oEjsQYZBjGtRooPuD8TUPd7M9coJLKELdQyTmrgFG2G9/3a/myFJv/38DZrf90tEsqLS3MU0WA932sG35GEIMoWX0EXcPTdIh1giJ/BGmczWQW/xq8SiR6y85EK6w3z/7KpO2kvXLOwxlxfLnwSy5X7jltW5HPED6nYDtdjkqJ9EQoLdPon+LMPpkaxa8c/4BkuQJsAxSoY7N5sKsC/Ac8JPE5K+zHPLR4fNiJK6D3o/5YVFxK9i8jdcAPZQYvRZvcPCGTuScYd70yKQ07eqgMhaCQq/OKDKLmt1CJnIM/AsaTQJFgGKTURDQK3d/nXHPpx953L3oPZc1L5DGmBmJqvJqN0bbv0HqLcwgomoIOZTQq8jNTeUSdtJ+70/DTwOm2wvsvuxJ0qtzOjPg7+kckt8ZEPl4GFXY+BHqOg4VN5e9XsesJZLvWlV//Sv1Fl0m7ji+0p2z48/A66ZNnJJfKZQJOs0ajLg5XTk/9NHHXUBnGBV94FmQl5GGyv1myd1XhtfK7YZ5PMobEnL8hjy0nDs0ptmNNkxs/Ly/CtzPlfcj0UVz+/LkQGrfwoBosd53jOBSqdicCW0m0OITdaWzAA+Tj6rN8HOtAMwZmv0DaO7zcErW6u0aACmclVzKH4W3eqf78UTjnYXCDPrHKBgurLcCOKY6ouec6/zRuKs3Wtaq8L2PMulPmz2U1qfYFcZjnZrA1k6b2DAUBJsqyVuPQZPRQg9oVPLCKTLVA+Zl4WA6SYpB2O+wmmIk+Rpk1EEraD82mLAMSJvqRnWaxKcKfsMR/rfKC4n0dITzVuLZPax3hbpvkYSNVcUp3oQnh/krOjY4NwjYKAReQAqhakof/32qdbEkAcTcX4yU0XJI3s6yYNuR468a9XMfgqUsm9WB/uFOzdHo8FWxk9qwtEAf+SDvFkuA7d8bRobxEGI0bu8rEE2DHZNNJGrZtplAl99fRozrn9K1NxDuLQCtzReqHOjTVFsecisW8U2iPIbRzTIduso6p2Lm3/I3rlyr+WXZQ8aBD4ofCqb01naVs8aqaXeaVDs14rLhSbQfJRrkifzwZqPF25HIuDvZDkfiIporWV1erT9ocESiKxLkieqAd++AIzmSHUOSBxPPKa5PQjxiG/fDUsmlLc4F4CHFIJMXZC9CNTCXrv5Rl7r5r5pODUiAYyCIplXPmhp6jVsHpcplKCfreS6X/EgL5o3/hYs4N32ABrX6C+pNd4/D8AOIzMwr0V5Plu4Ky2CxnDIKLUzI5zjEb7e91ZynLG6SS4vaP43qCJAXAMUgcfUQpyWunnUwH3lHDimzq/mVUFpb4Dq1vvNoDPo72TyUO/j2uswWCDwP5dY2wgC6L1vNaF7CCp6HsXZIbt/yzNG/o1IP7aRKjAkVYVyq3e9ooENIITwmkCJVS0/dnRflmfSrd+yJp+HNpizQZfpEGyz135m3Nw0zNELJXL8RS+cYqkDQaYL6ilEH5jI0bQmB3z+kLEq8AXmQdOgZWj4wLsmLbH/+ch0d6uvZSTkogzvx57YFqgXH8SJrWVPBDVhvGm1p6KYXmf+3CV0psfxmTaEuwu2Gt/lVBRga+oNKD43tx+nXnPYQGq+F44g+GXJJBg3zDXMulZx7PS3uwuWPctspzAeb1Ww8lV84t1b8DFnfAXeemzQundf26OkEdvWo4PFktTlkpBwM6g1zl4W12ACJfwmYFJs46E8T9maUV9sRNAiPgZSQRt43SmoGF/8SH8f/aXB3s8kqMlSt2S3jMM1pm6K65NBGJ03Xq1gp3X9Tz")
 			end
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol140_func)()
-local function HazeLocalChangerLol141_func() -- Toggle_12.Script
-	local HazeLocalChangerLol272_ = Instance.new('LocalScript', HazeLocalChangerLol112_)
-	local HazeLocalChangerLol273_ = false -- The start state of the toggle
-	local HazeLocalChangerLol274_ = false -- Debounce / cooldown so you cant spam the toggle and break it
-	HazeLocalChangerLol272_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
-		if HazeLocalChangerLol274_ == false then
-			if HazeLocalChangerLol273_ == true then -- If the toggle is already on
-				HazeLocalChangerLol274_ = true
-				game:GetService("TweenService"):Create(HazeLocalChangerLol272_.Parent, TweenInfo.new(0.25), {
+coroutine.wrap(HazeLocalChangerLol139_func)()
+local function HazeLocalChangerLol140_func() -- Toggle_12.Script
+	local HazeLocalChangerLol268_ = Instance.new('LocalScript', HazeLocalChangerLol112_)
+	local HazeLocalChangerLol269_ = false -- The start state of the toggle
+	local HazeLocalChangerLol270_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+	HazeLocalChangerLol268_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+		if HazeLocalChangerLol270_ == false then
+			if HazeLocalChangerLol269_ == true then -- If the toggle is already on
+				HazeLocalChangerLol270_ = true
+				game:GetService("TweenService"):Create(HazeLocalChangerLol268_.Parent, TweenInfo.new(0.25), {
 					ImageColor3 = Color3.fromRGB(31, 31, 31)
 				}):Play()
-				game:GetService("TweenService"):Create(HazeLocalChangerLol272_.Parent.Circle, TweenInfo.new(0.25), {
+				game:GetService("TweenService"):Create(HazeLocalChangerLol268_.Parent.Circle, TweenInfo.new(0.25), {
 					Position = UDim2.new(0, 4, 0, 3)
 				}):Play()
 				wait(0.25)
-				HazeLocalChangerLol274_ = false
-				HazeLocalChangerLol273_ = false
-			elseif HazeLocalChangerLol273_ == false then -- If the toggle isnt already on
-				HazeLocalChangerLol274_ = true
+				HazeLocalChangerLol270_ = false
+				HazeLocalChangerLol269_ = false
+			elseif HazeLocalChangerLol269_ == false then -- If the toggle isnt already on
+				HazeLocalChangerLol270_ = true
 				loadstring(game:HttpGet("https://pastebin.com/raw/A7Qtx7D3", true))()
 			end
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol141_func)()
-local function HazeLocalChangerLol142_func() -- Script.LocalScript
-	local HazeLocalChangerLol275_ = Instance.new('LocalScript', HazeLocalChangerLol36_)
-	local HazeLocalChangerLol276_ = game:GetService("UserInputService")
-	local HazeLocalChangerLol277_ = HazeLocalChangerLol275_.Parent
-	local HazeLocalChangerLol278_
-	local HazeLocalChangerLol279_
-	local HazeLocalChangerLol280_
-	local HazeLocalChangerLol281_
-	local function HazeLocalChangerLol282_func(HazeLocalChangerLol283_arg0)
-		local HazeLocalChangerLol284_ = HazeLocalChangerLol283_arg0.Position - HazeLocalChangerLol280_
-		HazeLocalChangerLol277_.Position = HazeLocalChangerLol277_:TweenPosition(UDim2.new(HazeLocalChangerLol281_.X.Scale, HazeLocalChangerLol281_.X.Offset + HazeLocalChangerLol284_.X, HazeLocalChangerLol281_.Y.Scale, HazeLocalChangerLol281_.Y.Offset + HazeLocalChangerLol284_.Y), 'Out', 'Linear', 0.06, true); -- drag speed
+coroutine.wrap(HazeLocalChangerLol140_func)()
+local function HazeLocalChangerLol141_func() -- Script.LocalScript
+	local HazeLocalChangerLol271_ = Instance.new('LocalScript', HazeLocalChangerLol36_)
+	local HazeLocalChangerLol272_ = game:GetService("UserInputService")
+	local HazeLocalChangerLol273_ = HazeLocalChangerLol271_.Parent
+	local HazeLocalChangerLol274_
+	local HazeLocalChangerLol275_
+	local HazeLocalChangerLol276_
+	local HazeLocalChangerLol277_
+	local function HazeLocalChangerLol278_func(HazeLocalChangerLol279_arg0)
+		local HazeLocalChangerLol280_ = HazeLocalChangerLol279_arg0.Position - HazeLocalChangerLol276_
+		HazeLocalChangerLol273_.Position = HazeLocalChangerLol273_:TweenPosition(UDim2.new(HazeLocalChangerLol277_.X.Scale, HazeLocalChangerLol277_.X.Offset + HazeLocalChangerLol280_.X, HazeLocalChangerLol277_.Y.Scale, HazeLocalChangerLol277_.Y.Offset + HazeLocalChangerLol280_.Y), 'Out', 'Linear', 0.06, true); -- drag speed
 	end
-	HazeLocalChangerLol277_.InputBegan:Connect(function(HazeLocalChangerLol285_arg0)
-		if HazeLocalChangerLol285_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol285_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol278_ = true
-			HazeLocalChangerLol280_ = HazeLocalChangerLol285_arg0.Position
-			HazeLocalChangerLol281_ = HazeLocalChangerLol277_.Position
-			HazeLocalChangerLol285_arg0.Changed:Connect(function()
-				if HazeLocalChangerLol285_arg0.UserInputState == Enum.UserInputState.End then
-					HazeLocalChangerLol278_ = false
+	HazeLocalChangerLol273_.InputBegan:Connect(function(HazeLocalChangerLol281_arg0)
+		if HazeLocalChangerLol281_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol281_arg0.UserInputType == Enum.UserInputType.Touch then
+			HazeLocalChangerLol274_ = true
+			HazeLocalChangerLol276_ = HazeLocalChangerLol281_arg0.Position
+			HazeLocalChangerLol277_ = HazeLocalChangerLol273_.Position
+			HazeLocalChangerLol281_arg0.Changed:Connect(function()
+				if HazeLocalChangerLol281_arg0.UserInputState == Enum.UserInputState.End then
+					HazeLocalChangerLol274_ = false
 				end
 			end)
 		end
 	end)
-	HazeLocalChangerLol277_.InputChanged:Connect(function(HazeLocalChangerLol286_arg0)
-		if HazeLocalChangerLol286_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol286_arg0.UserInputType == Enum.UserInputType.Touch then
-			HazeLocalChangerLol279_ = HazeLocalChangerLol286_arg0
+	HazeLocalChangerLol273_.InputChanged:Connect(function(HazeLocalChangerLol282_arg0)
+		if HazeLocalChangerLol282_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol282_arg0.UserInputType == Enum.UserInputType.Touch then
+			HazeLocalChangerLol275_ = HazeLocalChangerLol282_arg0
 		end
 	end)
-	HazeLocalChangerLol276_.InputChanged:Connect(function(HazeLocalChangerLol287_arg0)
-		if HazeLocalChangerLol287_arg0 == HazeLocalChangerLol279_ and HazeLocalChangerLol278_ then
-			HazeLocalChangerLol282_func(HazeLocalChangerLol287_arg0)
+	HazeLocalChangerLol272_.InputChanged:Connect(function(HazeLocalChangerLol283_arg0)
+		if HazeLocalChangerLol283_arg0 == HazeLocalChangerLol275_ and HazeLocalChangerLol274_ then
+			HazeLocalChangerLol278_func(HazeLocalChangerLol283_arg0)
 		end
 	end)
 end
-coroutine.wrap(HazeLocalChangerLol142_func)()
+coroutine.wrap(HazeLocalChangerLol141_func)()
