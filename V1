@@ -1,0 +1,2249 @@
+ --[[ 
+                ██╗  ██╗ █████╗ ███████╗███████╗
+                ██║  ██║██╔══██╗╚══███╔╝██╔════╝
+                ███████║███████║  ███╔╝ █████╗  
+                ██╔══██║██╔══██║ ███╔╝  ██╔══╝  
+                ██║  ██║██║  ██║███████╗███████╗
+                ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
+[A] This Script Source Was Protected By Hazeッ#9889 Any Attempts To Leak Will Result In A Blacklist
+[B] This Script Can Be Sold/Given Out By The Owner. Alls I Did Was Protect The Source Lol
+[C] You Cant Crack It.
+[D] To Purchase The Obfuscation Tool Dm Me Or For Support Im Working On A Script For It
+                                
+                                                   ]]
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local HazeLocalChangerLol1_ = Instance.new("ScreenGui")
+local HazeLocalChangerLol2_ = Instance.new("Frame")
+local HazeLocalChangerLol3_ = Instance.new("Frame")
+local HazeLocalChangerLol4_ = Instance.new("UICorner")
+local HazeLocalChangerLol5_ = Instance.new("Frame")
+local HazeLocalChangerLol6_ = Instance.new("UICorner")
+local HazeLocalChangerLol7_ = Instance.new("TextLabel")
+local HazeLocalChangerLol8_ = Instance.new("TextLabel")
+local HazeLocalChangerLol9_ = Instance.new("TextLabel")
+local HazeLocalChangerLol10_ = Instance.new("TextLabel")
+local HazeLocalChangerLol11_ = Instance.new("ImageButton")
+local HazeLocalChangerLol12_ = Instance.new("ImageButton")
+local HazeLocalChangerLol13_ = Instance.new("Frame")
+local HazeLocalChangerLol14_ = Instance.new("UIListLayout")
+local HazeLocalChangerLol15_ = Instance.new("TextButton")
+local HazeLocalChangerLol16_ = Instance.new("UICorner")
+local HazeLocalChangerLol17_ = Instance.new("TextButton")
+local HazeLocalChangerLol18_ = Instance.new("UICorner")
+local HazeLocalChangerLol19_ = Instance.new("Frame")
+local HazeLocalChangerLol20_ = Instance.new("Frame")
+local HazeLocalChangerLol21_ = Instance.new("UICorner")
+local HazeLocalChangerLol22_ = Instance.new("Frame")
+local HazeLocalChangerLol23_ = Instance.new("UIListLayout")
+local HazeLocalChangerLol24_ = Instance.new("TextLabel")
+local HazeLocalChangerLol25_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol26_ = Instance.new("TextButton")
+local HazeLocalChangerLol27_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol28_ = Instance.new("TextLabel")
+local HazeLocalChangerLol29_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol30_ = Instance.new("TextButton")
+local HazeLocalChangerLol31_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol32_ = Instance.new("TextLabel")
+local HazeLocalChangerLol33_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol34_ = Instance.new("TextButton")
+local HazeLocalChangerLol35_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol36_ = Instance.new("TextLabel")
+local HazeLocalChangerLol37_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol38_ = Instance.new("TextButton")
+local HazeLocalChangerLol39_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol40_ = Instance.new("TextLabel")
+local HazeLocalChangerLol41_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol42_ = Instance.new("TextButton")
+local HazeLocalChangerLol43_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol44_ = Instance.new("TextLabel")
+local HazeLocalChangerLol45_ = Instance.new("Frame")
+local HazeLocalChangerLol46_ = Instance.new("UICorner")
+local HazeLocalChangerLol47_ = Instance.new("Frame")
+local HazeLocalChangerLol48_ = Instance.new("UIListLayout")
+local HazeLocalChangerLol49_ = Instance.new("TextLabel")
+local HazeLocalChangerLol50_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol51_ = Instance.new("TextButton")
+local HazeLocalChangerLol52_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol53_ = Instance.new("TextLabel")
+local HazeLocalChangerLol54_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol55_ = Instance.new("TextButton")
+local HazeLocalChangerLol56_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol57_ = Instance.new("TextLabel")
+local HazeLocalChangerLol58_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol59_ = Instance.new("TextButton")
+local HazeLocalChangerLol60_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol61_ = Instance.new("TextLabel")
+local HazeLocalChangerLol62_ = Instance.new("Frame")
+local HazeLocalChangerLol63_ = Instance.new("UICorner")
+local HazeLocalChangerLol64_ = Instance.new("Frame")
+local HazeLocalChangerLol65_ = Instance.new("UIListLayout")
+local HazeLocalChangerLol66_ = Instance.new("TextLabel")
+local HazeLocalChangerLol67_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol68_ = Instance.new("TextButton")
+local HazeLocalChangerLol69_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol70_ = Instance.new("TextLabel")
+local HazeLocalChangerLol71_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol72_ = Instance.new("TextButton")
+local HazeLocalChangerLol73_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol74_ = Instance.new("TextLabel")
+local HazeLocalChangerLol75_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol76_ = Instance.new("TextButton")
+local HazeLocalChangerLol77_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol78_ = Instance.new("TextLabel")
+local HazeLocalChangerLol79_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol80_ = Instance.new("TextButton")
+local HazeLocalChangerLol81_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol82_ = Instance.new("TextLabel")
+local HazeLocalChangerLol83_ = Instance.new("Frame")
+local HazeLocalChangerLol84_ = Instance.new("Frame")
+local HazeLocalChangerLol85_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol86_ = Instance.new("TextButton")
+local HazeLocalChangerLol87_ = Instance.new("ImageLabel")
+local HazeLocalChangerLol88_ = Instance.new("TextLabel")
+local HazeLocalChangerLol89_ = Instance.new("TextLabel")
+local HazeLocalChangerLol90_ = Instance.new("TextButton")
+local HazeLocalChangerLol91_ = Instance.new("UICorner")
+local HazeLocalChangerLol92_ = Instance.new("Frame")
+local HazeLocalChangerLol93_ = Instance.new("UICorner")
+local HazeLocalChangerLol94_ = Instance.new("Frame")
+local HazeLocalChangerLol95_ = Instance.new("UICorner")
+local HazeLocalChangerLol96_ = Instance.new("TextLabel")
+local HazeLocalChangerLol97_ = Instance.new("ImageButton")
+local HazeLocalChangerLol98_ = Instance.new("TextButton")
+local HazeLocalChangerLol99_ = Instance.new("UICorner")
+local HazeLocalChangerLol100_ = Instance.new("Frame")
+local HazeLocalChangerLol101_ = Instance.new("TextButton")
+local HazeLocalChangerLol102_ = Instance.new("UICorner")
+local HazeLocalChangerLol103_ = Instance.new("TextButton")
+local HazeLocalChangerLol104_ = Instance.new("UICorner")
+local HazeLocalChangerLol105_ = Instance.new("TextButton")
+local HazeLocalChangerLol106_ = Instance.new("UICorner")
+local HazeLocalChangerLol107_ = Instance.new("TextBox")
+local HazeLocalChangerLol108_ = Instance.new("UICorner")
+local HazeLocalChangerLol109_ = Instance.new("TextLabel")
+local HazeLocalChangerLol110_ = Instance.new("TextLabel")
+local HazeLocalChangerLol111_ = Instance.new("Frame")
+local HazeLocalChangerLol112_ = Instance.new("TextButton")
+local HazeLocalChangerLol113_ = Instance.new("UICorner")
+local HazeLocalChangerLol114_ = Instance.new("TextButton")
+local HazeLocalChangerLol115_ = Instance.new("UICorner")
+local HazeLocalChangerLol116_ = Instance.new("TextBox")
+local HazeLocalChangerLol117_ = Instance.new("UICorner")
+local HazeLocalChangerLol118_ = Instance.new("TextLabel")
+local HazeLocalChangerLol119_ = Instance.new("TextLabel")
+local HazeLocalChangerLol120_ = Instance.new("TextBox")
+local HazeLocalChangerLol121_ = Instance.new("UICorner")
+local HazeLocalChangerLol122_ = Instance.new("TextLabel")
+local HazeLocalChangerLol123_ = Instance.new("TextLabel")
+local HazeLocalChangerLol124_ = Instance.new("TextButton")
+local HazeLocalChangerLol125_ = Instance.new("UICorner")
+
+--Properties:
+
+HazeLocalChangerLol1_.Name = "Executor"
+HazeLocalChangerLol1_.Parent = game.CoreGui
+HazeLocalChangerLol1_.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+HazeLocalChangerLol2_.Name = "Script"
+HazeLocalChangerLol2_.Parent = HazeLocalChangerLol1_
+HazeLocalChangerLol2_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol2_.BackgroundTransparency = 1.000
+HazeLocalChangerLol2_.BorderSizePixel = 0
+HazeLocalChangerLol2_.Position = UDim2.new(0.668416619, 0, 0.337579608, 0)
+HazeLocalChangerLol2_.Size = UDim2.new(0, 19, 0, 26)
+HazeLocalChangerLol2_.Visible = false
+HazeLocalChangerLol2_.ZIndex = 2
+
+HazeLocalChangerLol3_.Name = "StampyV2"
+HazeLocalChangerLol3_.Parent = HazeLocalChangerLol2_
+HazeLocalChangerLol3_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+HazeLocalChangerLol3_.Position = UDim2.new(-17.1336422, 0, -0.0296532512, 0)
+HazeLocalChangerLol3_.Size = UDim2.new(0, 382, 0, 320)
+
+HazeLocalChangerLol4_.Parent = HazeLocalChangerLol3_
+
+HazeLocalChangerLol5_.Name = "TopHolder"
+HazeLocalChangerLol5_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol5_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol5_.Size = UDim2.new(0, 382, 0, 30)
+
+HazeLocalChangerLol6_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol6_.Parent = HazeLocalChangerLol5_
+
+HazeLocalChangerLol7_.Name = "Stampy"
+HazeLocalChangerLol7_.Parent = HazeLocalChangerLol5_
+HazeLocalChangerLol7_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol7_.BackgroundTransparency = 1.000
+HazeLocalChangerLol7_.Position = UDim2.new(0.00791092403, 0, 0, 0)
+HazeLocalChangerLol7_.Size = UDim2.new(0, 37, 0, 30)
+HazeLocalChangerLol7_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol7_.Text = "Stampy"
+HazeLocalChangerLol7_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol7_.TextSize = 14.000
+HazeLocalChangerLol7_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol8_.Name = "Stampy"
+HazeLocalChangerLol8_.Parent = HazeLocalChangerLol5_
+HazeLocalChangerLol8_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol8_.BackgroundTransparency = 1.000
+HazeLocalChangerLol8_.Position = UDim2.new(0.143979058, 0, 0, 0)
+HazeLocalChangerLol8_.Size = UDim2.new(0, 40, 0, 30)
+HazeLocalChangerLol8_.Font = Enum.Font.Highway
+HazeLocalChangerLol8_.Text = "V2"
+HazeLocalChangerLol8_.TextColor3 = Color3.fromRGB(94, 105, 255)
+HazeLocalChangerLol8_.TextSize = 14.000
+HazeLocalChangerLol8_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol9_.Name = "Stampy"
+HazeLocalChangerLol9_.Parent = HazeLocalChangerLol5_
+HazeLocalChangerLol9_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol9_.BackgroundTransparency = 1.000
+HazeLocalChangerLol9_.Position = UDim2.new(0.198952869, 0, 0, 0)
+HazeLocalChangerLol9_.Size = UDim2.new(0, 26, 0, 30)
+HazeLocalChangerLol9_.Font = Enum.Font.GothamBlack
+HazeLocalChangerLol9_.Text = "┃"
+HazeLocalChangerLol9_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol9_.TextSize = 22.000
+HazeLocalChangerLol9_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol10_.Name = "Stampy"
+HazeLocalChangerLol10_.Parent = HazeLocalChangerLol5_
+HazeLocalChangerLol10_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol10_.BackgroundTransparency = 1.000
+HazeLocalChangerLol10_.Position = UDim2.new(0.238219887, 0, 0, 0)
+HazeLocalChangerLol10_.Size = UDim2.new(0, 95, 0, 30)
+HazeLocalChangerLol10_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol10_.Text = "Da Hood"
+HazeLocalChangerLol10_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol10_.TextSize = 14.000
+HazeLocalChangerLol10_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol11_.Parent = HazeLocalChangerLol5_
+HazeLocalChangerLol11_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol11_.BackgroundTransparency = 1.000
+HazeLocalChangerLol11_.Position = UDim2.new(0.918848157, 0, 0.100000001, 0)
+HazeLocalChangerLol11_.Size = UDim2.new(0, 22, 0, 24)
+HazeLocalChangerLol11_.Image = "rbxassetid://7072725342"
+HazeLocalChangerLol11_.ScaleType = Enum.ScaleType.Fit
+
+HazeLocalChangerLol12_.Name = "Move"
+HazeLocalChangerLol12_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol12_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol12_.BackgroundTransparency = 1.000
+HazeLocalChangerLol12_.Position = UDim2.new(0.84692657, 0, 0.0125000002, 0)
+HazeLocalChangerLol12_.Size = UDim2.new(0, 19, 0, 23)
+HazeLocalChangerLol12_.Image = "rbxassetid://7072719634"
+HazeLocalChangerLol12_.ScaleType = Enum.ScaleType.Fit
+
+HazeLocalChangerLol13_.Name = "ButtonHandler"
+HazeLocalChangerLol13_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol13_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+HazeLocalChangerLol13_.BorderSizePixel = 0
+HazeLocalChangerLol13_.Position = UDim2.new(0.0235602092, 0, 0.134375006, 0)
+HazeLocalChangerLol13_.Size = UDim2.new(0, 364, 0, 28)
+
+HazeLocalChangerLol14_.Parent = HazeLocalChangerLol13_
+HazeLocalChangerLol14_.FillDirection = Enum.FillDirection.Horizontal
+HazeLocalChangerLol14_.SortOrder = Enum.SortOrder.LayoutOrder
+HazeLocalChangerLol14_.Padding = UDim.new(0, 4)
+
+HazeLocalChangerLol15_.Name = "Farm"
+HazeLocalChangerLol15_.Parent = HazeLocalChangerLol13_
+HazeLocalChangerLol15_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol15_.Size = UDim2.new(0, 55, 0, 27)
+HazeLocalChangerLol15_.Font = Enum.Font.Highway
+HazeLocalChangerLol15_.Text = "Farm"
+HazeLocalChangerLol15_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol15_.TextSize = 14.000
+
+HazeLocalChangerLol16_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol16_.Parent = HazeLocalChangerLol15_
+
+HazeLocalChangerLol17_.Name = "Farm"
+HazeLocalChangerLol17_.Parent = HazeLocalChangerLol13_
+HazeLocalChangerLol17_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol17_.Size = UDim2.new(0, 55, 0, 27)
+HazeLocalChangerLol17_.Font = Enum.Font.Highway
+HazeLocalChangerLol17_.Text = "Settings"
+HazeLocalChangerLol17_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol17_.TextSize = 14.000
+
+HazeLocalChangerLol18_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol18_.Parent = HazeLocalChangerLol17_
+
+HazeLocalChangerLol19_.Name = "Farm"
+HazeLocalChangerLol19_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol19_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol19_.BackgroundTransparency = 1.000
+HazeLocalChangerLol19_.Position = UDim2.new(0, 0, 0.221874997, 0)
+HazeLocalChangerLol19_.Size = UDim2.new(0, 382, 0, 249)
+
+HazeLocalChangerLol20_.Name = "FarmFrame"
+HazeLocalChangerLol20_.Parent = HazeLocalChangerLol19_
+HazeLocalChangerLol20_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol20_.Position = UDim2.new(0.0235602092, 0, 0.0401606411, 0)
+HazeLocalChangerLol20_.Size = UDim2.new(0, 135, 0, 222)
+
+HazeLocalChangerLol21_.Parent = HazeLocalChangerLol20_
+
+HazeLocalChangerLol22_.Name = "UiListLayoutHolder"
+HazeLocalChangerLol22_.Parent = HazeLocalChangerLol20_
+HazeLocalChangerLol22_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol22_.BackgroundTransparency = 1.000
+HazeLocalChangerLol22_.Position = UDim2.new(0.0592592582, 0, 0.0495495498, 0)
+HazeLocalChangerLol22_.Size = UDim2.new(0, 119, 0, 199)
+
+HazeLocalChangerLol23_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol23_.SortOrder = Enum.SortOrder.LayoutOrder
+HazeLocalChangerLol23_.Padding = UDim.new(0, 8)
+
+HazeLocalChangerLol24_.Name = "AutoFarm"
+HazeLocalChangerLol24_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol24_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol24_.BackgroundTransparency = 1.000
+HazeLocalChangerLol24_.Position = UDim2.new(0, 0, 0.0603015088, 0)
+HazeLocalChangerLol24_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol24_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol24_.Text = "Autofarm"
+HazeLocalChangerLol24_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol24_.TextSize = 16.000
+HazeLocalChangerLol24_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol25_.Name = "Toggle"
+HazeLocalChangerLol25_.Parent = HazeLocalChangerLol24_
+HazeLocalChangerLol25_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol25_.BackgroundTransparency = 1.000
+HazeLocalChangerLol25_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol25_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol25_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol25_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol25_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol25_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol25_.SliceScale = 0.120
+
+HazeLocalChangerLol26_.Name = "Button"
+HazeLocalChangerLol26_.Parent = HazeLocalChangerLol25_
+HazeLocalChangerLol26_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol26_.BackgroundTransparency = 1.000
+HazeLocalChangerLol26_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol26_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol26_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol26_.TextSize = 14.000
+HazeLocalChangerLol26_.TextTransparency = 1.000
+
+HazeLocalChangerLol27_.Name = "Circle"
+HazeLocalChangerLol27_.Parent = HazeLocalChangerLol25_
+HazeLocalChangerLol27_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol27_.BackgroundTransparency = 1.000
+HazeLocalChangerLol27_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol27_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol27_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol27_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol27_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol27_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol27_.SliceScale = 0.120
+
+HazeLocalChangerLol28_.Name = "Teleport"
+HazeLocalChangerLol28_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol28_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol28_.BackgroundTransparency = 1.000
+HazeLocalChangerLol28_.Position = UDim2.new(0, 0, 0.281407028, 0)
+HazeLocalChangerLol28_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol28_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol28_.Text = "Shoe"
+HazeLocalChangerLol28_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol28_.TextSize = 16.000
+HazeLocalChangerLol28_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol29_.Name = "Toggle"
+HazeLocalChangerLol29_.Parent = HazeLocalChangerLol28_
+HazeLocalChangerLol29_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol29_.BackgroundTransparency = 1.000
+HazeLocalChangerLol29_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol29_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol29_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol29_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol29_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol29_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol29_.SliceScale = 0.120
+
+HazeLocalChangerLol30_.Name = "Button"
+HazeLocalChangerLol30_.Parent = HazeLocalChangerLol29_
+HazeLocalChangerLol30_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol30_.BackgroundTransparency = 1.000
+HazeLocalChangerLol30_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol30_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol30_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol30_.TextSize = 14.000
+HazeLocalChangerLol30_.TextTransparency = 1.000
+
+HazeLocalChangerLol31_.Name = "Circle"
+HazeLocalChangerLol31_.Parent = HazeLocalChangerLol29_
+HazeLocalChangerLol31_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol31_.BackgroundTransparency = 1.000
+HazeLocalChangerLol31_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol31_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol31_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol31_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol31_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol31_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol31_.SliceScale = 0.120
+
+HazeLocalChangerLol32_.Name = "Teleport"
+HazeLocalChangerLol32_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol32_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol32_.BackgroundTransparency = 1.000
+HazeLocalChangerLol32_.Position = UDim2.new(0, 0, 0.281407028, 0)
+HazeLocalChangerLol32_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol32_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol32_.Text = "Hospital"
+HazeLocalChangerLol32_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol32_.TextSize = 16.000
+HazeLocalChangerLol32_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol33_.Name = "Toggle"
+HazeLocalChangerLol33_.Parent = HazeLocalChangerLol32_
+HazeLocalChangerLol33_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol33_.BackgroundTransparency = 1.000
+HazeLocalChangerLol33_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol33_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol33_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol33_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol33_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol33_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol33_.SliceScale = 0.120
+
+HazeLocalChangerLol34_.Name = "Button"
+HazeLocalChangerLol34_.Parent = HazeLocalChangerLol33_
+HazeLocalChangerLol34_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol34_.BackgroundTransparency = 1.000
+HazeLocalChangerLol34_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol34_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol34_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol34_.TextSize = 14.000
+HazeLocalChangerLol34_.TextTransparency = 1.000
+
+HazeLocalChangerLol35_.Name = "Circle"
+HazeLocalChangerLol35_.Parent = HazeLocalChangerLol33_
+HazeLocalChangerLol35_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol35_.BackgroundTransparency = 1.000
+HazeLocalChangerLol35_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol35_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol35_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol35_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol35_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol35_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol35_.SliceScale = 0.120
+
+HazeLocalChangerLol36_.Name = "Teleport"
+HazeLocalChangerLol36_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol36_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol36_.BackgroundTransparency = 1.000
+HazeLocalChangerLol36_.Position = UDim2.new(0, 0, 0.281407028, 0)
+HazeLocalChangerLol36_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol36_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol36_.Text = "Lettuce"
+HazeLocalChangerLol36_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol36_.TextSize = 16.000
+HazeLocalChangerLol36_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol37_.Name = "Toggle"
+HazeLocalChangerLol37_.Parent = HazeLocalChangerLol36_
+HazeLocalChangerLol37_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol37_.BackgroundTransparency = 1.000
+HazeLocalChangerLol37_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol37_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol37_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol37_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol37_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol37_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol37_.SliceScale = 0.120
+
+HazeLocalChangerLol38_.Name = "Button"
+HazeLocalChangerLol38_.Parent = HazeLocalChangerLol37_
+HazeLocalChangerLol38_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol38_.BackgroundTransparency = 1.000
+HazeLocalChangerLol38_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol38_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol38_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol38_.TextSize = 14.000
+HazeLocalChangerLol38_.TextTransparency = 1.000
+
+HazeLocalChangerLol39_.Name = "Circle"
+HazeLocalChangerLol39_.Parent = HazeLocalChangerLol37_
+HazeLocalChangerLol39_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol39_.BackgroundTransparency = 1.000
+HazeLocalChangerLol39_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol39_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol39_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol39_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol39_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol39_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol39_.SliceScale = 0.120
+
+HazeLocalChangerLol40_.Name = "Teleport"
+HazeLocalChangerLol40_.Parent = HazeLocalChangerLol22_
+HazeLocalChangerLol40_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol40_.BackgroundTransparency = 1.000
+HazeLocalChangerLol40_.Position = UDim2.new(0, 0, 0.281407028, 0)
+HazeLocalChangerLol40_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol40_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol40_.Text = "Muscle"
+HazeLocalChangerLol40_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol40_.TextSize = 16.000
+HazeLocalChangerLol40_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol41_.Name = "Toggle"
+HazeLocalChangerLol41_.Parent = HazeLocalChangerLol40_
+HazeLocalChangerLol41_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol41_.BackgroundTransparency = 1.000
+HazeLocalChangerLol41_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol41_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol41_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol41_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol41_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol41_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol41_.SliceScale = 0.120
+
+HazeLocalChangerLol42_.Name = "Button"
+HazeLocalChangerLol42_.Parent = HazeLocalChangerLol41_
+HazeLocalChangerLol42_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol42_.BackgroundTransparency = 1.000
+HazeLocalChangerLol42_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol42_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol42_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol42_.TextSize = 14.000
+HazeLocalChangerLol42_.TextTransparency = 1.000
+
+HazeLocalChangerLol43_.Name = "Circle"
+HazeLocalChangerLol43_.Parent = HazeLocalChangerLol41_
+HazeLocalChangerLol43_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol43_.BackgroundTransparency = 1.000
+HazeLocalChangerLol43_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol43_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol43_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol43_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol43_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol43_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol43_.SliceScale = 0.120
+
+HazeLocalChangerLol44_.Parent = HazeLocalChangerLol20_
+HazeLocalChangerLol44_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol44_.BackgroundTransparency = 1.000
+HazeLocalChangerLol44_.Position = UDim2.new(0, 0, -0.0333333053, 0)
+HazeLocalChangerLol44_.Size = UDim2.new(0, 59, 0, 14)
+HazeLocalChangerLol44_.Font = Enum.Font.SourceSansBold
+HazeLocalChangerLol44_.Text = "Farming"
+HazeLocalChangerLol44_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol44_.TextSize = 18.000
+HazeLocalChangerLol44_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol45_.Name = "FarmFrame"
+HazeLocalChangerLol45_.Parent = HazeLocalChangerLol19_
+HazeLocalChangerLol45_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol45_.Position = UDim2.new(0.392670155, 0, 0.0401606411, 0)
+HazeLocalChangerLol45_.Size = UDim2.new(0, 135, 0, 83)
+
+HazeLocalChangerLol46_.Parent = HazeLocalChangerLol45_
+
+HazeLocalChangerLol47_.Name = "UiListLayoutHolder"
+HazeLocalChangerLol47_.Parent = HazeLocalChangerLol45_
+HazeLocalChangerLol47_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol47_.BackgroundTransparency = 1.000
+HazeLocalChangerLol47_.Position = UDim2.new(0.0592592582, 0, 0.12577948, 0)
+HazeLocalChangerLol47_.Size = UDim2.new(0, 119, 0, 192)
+
+HazeLocalChangerLol48_.Parent = HazeLocalChangerLol47_
+HazeLocalChangerLol48_.SortOrder = Enum.SortOrder.LayoutOrder
+HazeLocalChangerLol48_.Padding = UDim.new(0, 8)
+
+HazeLocalChangerLol49_.Name = "AutoFarm"
+HazeLocalChangerLol49_.Parent = HazeLocalChangerLol47_
+HazeLocalChangerLol49_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol49_.BackgroundTransparency = 1.000
+HazeLocalChangerLol49_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol49_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol49_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol49_.Text = "Anti Idle"
+HazeLocalChangerLol49_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol49_.TextSize = 16.000
+HazeLocalChangerLol49_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol50_.Name = "Toggle"
+HazeLocalChangerLol50_.Parent = HazeLocalChangerLol49_
+HazeLocalChangerLol50_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol50_.BackgroundTransparency = 1.000
+HazeLocalChangerLol50_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol50_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol50_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol50_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol50_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol50_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol50_.SliceScale = 0.120
+
+HazeLocalChangerLol51_.Name = "Button"
+HazeLocalChangerLol51_.Parent = HazeLocalChangerLol50_
+HazeLocalChangerLol51_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol51_.BackgroundTransparency = 1.000
+HazeLocalChangerLol51_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol51_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol51_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol51_.TextSize = 14.000
+HazeLocalChangerLol51_.TextTransparency = 1.000
+
+HazeLocalChangerLol52_.Name = "Circle"
+HazeLocalChangerLol52_.Parent = HazeLocalChangerLol50_
+HazeLocalChangerLol52_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol52_.BackgroundTransparency = 1.000
+HazeLocalChangerLol52_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol52_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol52_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol52_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol52_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol52_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol52_.SliceScale = 0.120
+
+HazeLocalChangerLol53_.Name = "AutoFarm"
+HazeLocalChangerLol53_.Parent = HazeLocalChangerLol47_
+HazeLocalChangerLol53_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol53_.BackgroundTransparency = 1.000
+HazeLocalChangerLol53_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol53_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol53_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol53_.Text = "Crash"
+HazeLocalChangerLol53_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol53_.TextSize = 16.000
+HazeLocalChangerLol53_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol54_.Name = "Toggle"
+HazeLocalChangerLol54_.Parent = HazeLocalChangerLol53_
+HazeLocalChangerLol54_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol54_.BackgroundTransparency = 1.000
+HazeLocalChangerLol54_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol54_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol54_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol54_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol54_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol54_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol54_.SliceScale = 0.120
+
+HazeLocalChangerLol55_.Name = "Button"
+HazeLocalChangerLol55_.Parent = HazeLocalChangerLol54_
+HazeLocalChangerLol55_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol55_.BackgroundTransparency = 1.000
+HazeLocalChangerLol55_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol55_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol55_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol55_.TextSize = 14.000
+HazeLocalChangerLol55_.TextTransparency = 1.000
+
+HazeLocalChangerLol56_.Name = "Circle"
+HazeLocalChangerLol56_.Parent = HazeLocalChangerLol54_
+HazeLocalChangerLol56_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol56_.BackgroundTransparency = 1.000
+HazeLocalChangerLol56_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol56_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol56_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol56_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol56_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol56_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol56_.SliceScale = 0.120
+
+HazeLocalChangerLol57_.Name = "AutoFarm"
+HazeLocalChangerLol57_.Parent = HazeLocalChangerLol47_
+HazeLocalChangerLol57_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol57_.BackgroundTransparency = 1.000
+HazeLocalChangerLol57_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol57_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol57_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol57_.Text = "Buy Mask"
+HazeLocalChangerLol57_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol57_.TextSize = 16.000
+HazeLocalChangerLol57_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol58_.Name = "Toggle"
+HazeLocalChangerLol58_.Parent = HazeLocalChangerLol57_
+HazeLocalChangerLol58_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol58_.BackgroundTransparency = 1.000
+HazeLocalChangerLol58_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol58_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol58_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol58_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol58_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol58_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol58_.SliceScale = 0.120
+
+HazeLocalChangerLol59_.Name = "Button"
+HazeLocalChangerLol59_.Parent = HazeLocalChangerLol58_
+HazeLocalChangerLol59_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol59_.BackgroundTransparency = 1.000
+HazeLocalChangerLol59_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol59_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol59_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol59_.TextSize = 14.000
+HazeLocalChangerLol59_.TextTransparency = 1.000
+
+HazeLocalChangerLol60_.Name = "Circle"
+HazeLocalChangerLol60_.Parent = HazeLocalChangerLol58_
+HazeLocalChangerLol60_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol60_.BackgroundTransparency = 1.000
+HazeLocalChangerLol60_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol60_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol60_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol60_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol60_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol60_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol60_.SliceScale = 0.120
+
+HazeLocalChangerLol61_.Parent = HazeLocalChangerLol45_
+HazeLocalChangerLol61_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol61_.BackgroundTransparency = 1.000
+HazeLocalChangerLol61_.Position = UDim2.new(0, 0, -0.0935742706, 0)
+HazeLocalChangerLol61_.Size = UDim2.new(0, 59, 0, 14)
+HazeLocalChangerLol61_.Font = Enum.Font.Highway
+HazeLocalChangerLol61_.Text = "Extra"
+HazeLocalChangerLol61_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol61_.TextSize = 18.000
+HazeLocalChangerLol61_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol62_.Name = "FarmFrame"
+HazeLocalChangerLol62_.Parent = HazeLocalChangerLol19_
+HazeLocalChangerLol62_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol62_.Position = UDim2.new(0.392670155, 0, 0.437750995, 0)
+HazeLocalChangerLol62_.Size = UDim2.new(0, 135, 0, 123)
+
+HazeLocalChangerLol63_.Parent = HazeLocalChangerLol62_
+
+HazeLocalChangerLol64_.Name = "UiListLayoutHolder"
+HazeLocalChangerLol64_.Parent = HazeLocalChangerLol62_
+HazeLocalChangerLol64_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol64_.BackgroundTransparency = 1.000
+HazeLocalChangerLol64_.Position = UDim2.new(0.0592592582, 0, 0.065040648, 0)
+HazeLocalChangerLol64_.Size = UDim2.new(0, 119, 0, 199)
+
+HazeLocalChangerLol65_.Parent = HazeLocalChangerLol64_
+HazeLocalChangerLol65_.SortOrder = Enum.SortOrder.LayoutOrder
+HazeLocalChangerLol65_.Padding = UDim.new(0, 8)
+
+HazeLocalChangerLol66_.Name = "AutoFarm"
+HazeLocalChangerLol66_.Parent = HazeLocalChangerLol64_
+HazeLocalChangerLol66_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol66_.BackgroundTransparency = 1.000
+HazeLocalChangerLol66_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol66_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol66_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol66_.Text = "Anti Kick"
+HazeLocalChangerLol66_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol66_.TextSize = 16.000
+HazeLocalChangerLol66_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol67_.Name = "Toggle"
+HazeLocalChangerLol67_.Parent = HazeLocalChangerLol66_
+HazeLocalChangerLol67_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol67_.BackgroundTransparency = 1.000
+HazeLocalChangerLol67_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol67_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol67_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol67_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol67_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol67_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol67_.SliceScale = 0.120
+
+HazeLocalChangerLol68_.Name = "Button"
+HazeLocalChangerLol68_.Parent = HazeLocalChangerLol67_
+HazeLocalChangerLol68_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol68_.BackgroundTransparency = 1.000
+HazeLocalChangerLol68_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol68_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol68_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol68_.TextSize = 14.000
+HazeLocalChangerLol68_.TextTransparency = 1.000
+
+HazeLocalChangerLol69_.Name = "Circle"
+HazeLocalChangerLol69_.Parent = HazeLocalChangerLol67_
+HazeLocalChangerLol69_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol69_.BackgroundTransparency = 1.000
+HazeLocalChangerLol69_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol69_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol69_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol69_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol69_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol69_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol69_.SliceScale = 0.120
+
+HazeLocalChangerLol70_.Name = "AutoFarm"
+HazeLocalChangerLol70_.Parent = HazeLocalChangerLol64_
+HazeLocalChangerLol70_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol70_.BackgroundTransparency = 1.000
+HazeLocalChangerLol70_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol70_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol70_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol70_.Text = "Anti Flash"
+HazeLocalChangerLol70_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol70_.TextSize = 16.000
+HazeLocalChangerLol70_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol71_.Name = "Toggle"
+HazeLocalChangerLol71_.Parent = HazeLocalChangerLol70_
+HazeLocalChangerLol71_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol71_.BackgroundTransparency = 1.000
+HazeLocalChangerLol71_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol71_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol71_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol71_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol71_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol71_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol71_.SliceScale = 0.120
+
+HazeLocalChangerLol72_.Name = "Button"
+HazeLocalChangerLol72_.Parent = HazeLocalChangerLol71_
+HazeLocalChangerLol72_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol72_.BackgroundTransparency = 1.000
+HazeLocalChangerLol72_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol72_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol72_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol72_.TextSize = 14.000
+HazeLocalChangerLol72_.TextTransparency = 1.000
+
+HazeLocalChangerLol73_.Name = "Circle"
+HazeLocalChangerLol73_.Parent = HazeLocalChangerLol71_
+HazeLocalChangerLol73_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol73_.BackgroundTransparency = 1.000
+HazeLocalChangerLol73_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol73_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol73_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol73_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol73_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol73_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol73_.SliceScale = 0.120
+
+HazeLocalChangerLol74_.Name = "AutoFarm"
+HazeLocalChangerLol74_.Parent = HazeLocalChangerLol64_
+HazeLocalChangerLol74_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol74_.BackgroundTransparency = 1.000
+HazeLocalChangerLol74_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol74_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol74_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol74_.Text = "Anti Cmds"
+HazeLocalChangerLol74_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol74_.TextSize = 16.000
+HazeLocalChangerLol74_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol75_.Name = "Toggle"
+HazeLocalChangerLol75_.Parent = HazeLocalChangerLol74_
+HazeLocalChangerLol75_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol75_.BackgroundTransparency = 1.000
+HazeLocalChangerLol75_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol75_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol75_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol75_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol75_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol75_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol75_.SliceScale = 0.120
+
+HazeLocalChangerLol76_.Name = "Button"
+HazeLocalChangerLol76_.Parent = HazeLocalChangerLol75_
+HazeLocalChangerLol76_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol76_.BackgroundTransparency = 1.000
+HazeLocalChangerLol76_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol76_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol76_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol76_.TextSize = 14.000
+HazeLocalChangerLol76_.TextTransparency = 1.000
+
+HazeLocalChangerLol77_.Name = "Circle"
+HazeLocalChangerLol77_.Parent = HazeLocalChangerLol75_
+HazeLocalChangerLol77_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol77_.BackgroundTransparency = 1.000
+HazeLocalChangerLol77_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol77_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol77_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol77_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol77_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol77_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol77_.SliceScale = 0.120
+
+HazeLocalChangerLol78_.Name = "AutoFarm"
+HazeLocalChangerLol78_.Parent = HazeLocalChangerLol64_
+HazeLocalChangerLol78_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol78_.BackgroundTransparency = 1.000
+HazeLocalChangerLol78_.Position = UDim2.new(0, 0, 0.0550931767, 0)
+HazeLocalChangerLol78_.Size = UDim2.new(0, 65, 0, 16)
+HazeLocalChangerLol78_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol78_.Text = "Ac Bypass"
+HazeLocalChangerLol78_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol78_.TextSize = 16.000
+HazeLocalChangerLol78_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol79_.Name = "Toggle"
+HazeLocalChangerLol79_.Parent = HazeLocalChangerLol78_
+HazeLocalChangerLol79_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol79_.BackgroundTransparency = 1.000
+HazeLocalChangerLol79_.Position = UDim2.new(1.5709219, -23, 0.464981467, -11)
+HazeLocalChangerLol79_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol79_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol79_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol79_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol79_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol79_.SliceScale = 0.120
+
+HazeLocalChangerLol80_.Name = "Button"
+HazeLocalChangerLol80_.Parent = HazeLocalChangerLol79_
+HazeLocalChangerLol80_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol80_.BackgroundTransparency = 1.000
+HazeLocalChangerLol80_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol80_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol80_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol80_.TextSize = 14.000
+HazeLocalChangerLol80_.TextTransparency = 1.000
+
+HazeLocalChangerLol81_.Name = "Circle"
+HazeLocalChangerLol81_.Parent = HazeLocalChangerLol79_
+HazeLocalChangerLol81_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol81_.BackgroundTransparency = 1.000
+HazeLocalChangerLol81_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol81_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol81_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol81_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol81_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol81_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol81_.SliceScale = 0.120
+
+HazeLocalChangerLol82_.Parent = HazeLocalChangerLol62_
+HazeLocalChangerLol82_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol82_.BackgroundTransparency = 1.000
+HazeLocalChangerLol82_.Position = UDim2.new(0, 0, -0.0935742706, 0)
+HazeLocalChangerLol82_.Size = UDim2.new(0, 59, 0, 14)
+HazeLocalChangerLol82_.Font = Enum.Font.Highway
+HazeLocalChangerLol82_.Text = "Protections"
+HazeLocalChangerLol82_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol82_.TextSize = 18.000
+HazeLocalChangerLol82_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol83_.Name = "Bar"
+HazeLocalChangerLol83_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol83_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol83_.BorderColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol83_.Position = UDim2.new(0.0209999997, 0, 0.230000004, 0)
+HazeLocalChangerLol83_.Size = UDim2.new(0, 364, 0, 1)
+
+HazeLocalChangerLol84_.Name = "Settings"
+HazeLocalChangerLol84_.Parent = HazeLocalChangerLol3_
+HazeLocalChangerLol84_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol84_.BackgroundTransparency = 1.000
+HazeLocalChangerLol84_.Position = UDim2.new(0, 0, 0.221874997, 0)
+HazeLocalChangerLol84_.Size = UDim2.new(0, 382, 0, 249)
+HazeLocalChangerLol84_.Visible = false
+
+HazeLocalChangerLol85_.Name = "Toggle"
+HazeLocalChangerLol85_.Parent = HazeLocalChangerLol84_
+HazeLocalChangerLol85_.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+HazeLocalChangerLol85_.BackgroundTransparency = 1.000
+HazeLocalChangerLol85_.Position = UDim2.new(1.26987481, -23, 1.11156785, -11)
+HazeLocalChangerLol85_.Size = UDim2.new(0, 34, 0, 20)
+HazeLocalChangerLol85_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol85_.ImageColor3 = Color3.fromRGB(31, 31, 31)
+HazeLocalChangerLol85_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol85_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol85_.SliceScale = 0.120
+
+HazeLocalChangerLol86_.Name = "Button"
+HazeLocalChangerLol86_.Parent = HazeLocalChangerLol85_
+HazeLocalChangerLol86_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol86_.BackgroundTransparency = 1.000
+HazeLocalChangerLol86_.Size = UDim2.new(1, 0, 1, 0)
+HazeLocalChangerLol86_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol86_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol86_.TextSize = 14.000
+HazeLocalChangerLol86_.TextTransparency = 1.000
+
+HazeLocalChangerLol87_.Name = "Circle"
+HazeLocalChangerLol87_.Parent = HazeLocalChangerLol85_
+HazeLocalChangerLol87_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol87_.BackgroundTransparency = 1.000
+HazeLocalChangerLol87_.Position = UDim2.new(0, 4, 0, 3)
+HazeLocalChangerLol87_.Size = UDim2.new(0, 11, 0, 13)
+HazeLocalChangerLol87_.Image = "rbxassetid://3570695787"
+HazeLocalChangerLol87_.ImageColor3 = Color3.fromRGB(17, 17, 17)
+HazeLocalChangerLol87_.ScaleType = Enum.ScaleType.Slice
+HazeLocalChangerLol87_.SliceCenter = Rect.new(100, 100, 100, 100)
+HazeLocalChangerLol87_.SliceScale = 0.120
+
+HazeLocalChangerLol88_.Name = "Teleport"
+HazeLocalChangerLol88_.Parent = HazeLocalChangerLol84_
+HazeLocalChangerLol88_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol88_.BackgroundTransparency = 1.000
+HazeLocalChangerLol88_.Position = UDim2.new(0.0235602092, 0, 0.0926519781, 0)
+HazeLocalChangerLol88_.Size = UDim2.new(0, 127, 0, 16)
+HazeLocalChangerLol88_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol88_.Text = "Launch Stampy X"
+HazeLocalChangerLol88_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol88_.TextSize = 16.000
+HazeLocalChangerLol88_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol89_.Name = "Teleport"
+HazeLocalChangerLol89_.Parent = HazeLocalChangerLol84_
+HazeLocalChangerLol89_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol89_.BackgroundTransparency = 1.000
+HazeLocalChangerLol89_.Position = UDim2.new(0.0235602092, 0, 0.197069645, 0)
+HazeLocalChangerLol89_.Size = UDim2.new(0, 333, 0, 16)
+HazeLocalChangerLol89_.Font = Enum.Font.Merriweather
+HazeLocalChangerLol89_.Text = "Laucnhes stampy's advanced better internal executor :)"
+HazeLocalChangerLol89_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol89_.TextSize = 14.000
+HazeLocalChangerLol89_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol90_.Parent = HazeLocalChangerLol84_
+HazeLocalChangerLol90_.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+HazeLocalChangerLol90_.Position = UDim2.new(0.0235602092, 0, 0.273092359, 0)
+HazeLocalChangerLol90_.Size = UDim2.new(0, 67, 0, 22)
+HazeLocalChangerLol90_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol90_.Text = "Inject"
+HazeLocalChangerLol90_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol90_.TextSize = 14.000
+
+HazeLocalChangerLol91_.CornerRadius = UDim.new(0, 6)
+HazeLocalChangerLol91_.Parent = HazeLocalChangerLol90_
+
+HazeLocalChangerLol92_.Name = "KeySys"
+HazeLocalChangerLol92_.Parent = HazeLocalChangerLol1_
+HazeLocalChangerLol92_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+HazeLocalChangerLol92_.Position = UDim2.new(0.38786909, 0, 0.355414033, 0)
+HazeLocalChangerLol92_.Size = UDim2.new(0, 320, 0, 164)
+
+HazeLocalChangerLol93_.Parent = HazeLocalChangerLol92_
+
+HazeLocalChangerLol94_.Name = "Top"
+HazeLocalChangerLol94_.Parent = HazeLocalChangerLol92_
+HazeLocalChangerLol94_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol94_.Size = UDim2.new(0, 320, 0, 28)
+
+HazeLocalChangerLol95_.CornerRadius = UDim.new(0, 6)
+HazeLocalChangerLol95_.Parent = HazeLocalChangerLol94_
+
+HazeLocalChangerLol96_.Name = "TitleToo"
+HazeLocalChangerLol96_.Parent = HazeLocalChangerLol94_
+HazeLocalChangerLol96_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol96_.BackgroundTransparency = 1.000
+HazeLocalChangerLol96_.Position = UDim2.new(0.0375000015, 0, 0, 0)
+HazeLocalChangerLol96_.Size = UDim2.new(0, 133, 0, 28)
+HazeLocalChangerLol96_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol96_.Text = "Stampy┃Key Sytem"
+HazeLocalChangerLol96_.TextColor3 = Color3.fromRGB(129, 112, 255)
+HazeLocalChangerLol96_.TextSize = 14.000
+HazeLocalChangerLol96_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol97_.Parent = HazeLocalChangerLol94_
+HazeLocalChangerLol97_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol97_.BackgroundTransparency = 1.000
+HazeLocalChangerLol97_.Position = UDim2.new(0.912500024, 0, 0.107142851, 0)
+HazeLocalChangerLol97_.Size = UDim2.new(0, 21, 0, 21)
+HazeLocalChangerLol97_.Image = "rbxassetid://7072725342"
+HazeLocalChangerLol97_.ScaleType = Enum.ScaleType.Fit
+
+HazeLocalChangerLol98_.Name = "Login"
+HazeLocalChangerLol98_.Parent = HazeLocalChangerLol94_
+HazeLocalChangerLol98_.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+HazeLocalChangerLol98_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol98_.Position = UDim2.new(0.731249988, 0, 0.198606223, 0)
+HazeLocalChangerLol98_.Size = UDim2.new(0, 49, 0, 18)
+HazeLocalChangerLol98_.ZIndex = 2
+HazeLocalChangerLol98_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol98_.Text = "Login"
+HazeLocalChangerLol98_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol98_.TextSize = 12.000
+
+HazeLocalChangerLol99_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol99_.Parent = HazeLocalChangerLol98_
+
+HazeLocalChangerLol100_.Name = "Home"
+HazeLocalChangerLol100_.Parent = HazeLocalChangerLol92_
+HazeLocalChangerLol100_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol100_.BackgroundTransparency = 1.000
+HazeLocalChangerLol100_.Position = UDim2.new(0, 0, 0.170731708, 0)
+HazeLocalChangerLol100_.Size = UDim2.new(0, 320, 0, 136)
+
+HazeLocalChangerLol101_.Name = "Buy"
+HazeLocalChangerLol101_.Parent = HazeLocalChangerLol100_
+HazeLocalChangerLol101_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol101_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol101_.Position = UDim2.new(0.0687500015, 0, 0.664992869, 0)
+HazeLocalChangerLol101_.Size = UDim2.new(0, 55, 0, 28)
+HazeLocalChangerLol101_.ZIndex = 2
+HazeLocalChangerLol101_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol101_.Text = "Buy"
+HazeLocalChangerLol101_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol101_.TextSize = 12.000
+
+HazeLocalChangerLol102_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol102_.Parent = HazeLocalChangerLol101_
+
+HazeLocalChangerLol103_.Name = "Help"
+HazeLocalChangerLol103_.Parent = HazeLocalChangerLol100_
+HazeLocalChangerLol103_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol103_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol103_.Position = UDim2.new(0.759374976, 0, 0.664992869, 0)
+HazeLocalChangerLol103_.Size = UDim2.new(0, 55, 0, 28)
+HazeLocalChangerLol103_.ZIndex = 2
+HazeLocalChangerLol103_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol103_.Text = "Help"
+HazeLocalChangerLol103_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol103_.TextSize = 12.000
+
+HazeLocalChangerLol104_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol104_.Parent = HazeLocalChangerLol103_
+
+HazeLocalChangerLol105_.Name = "Logn1"
+HazeLocalChangerLol105_.Parent = HazeLocalChangerLol100_
+HazeLocalChangerLol105_.BackgroundColor3 = Color3.fromRGB(93, 81, 184)
+HazeLocalChangerLol105_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol105_.Position = UDim2.new(0.262499988, 0, 0.664992869, 0)
+HazeLocalChangerLol105_.Size = UDim2.new(0, 55, 0, 28)
+HazeLocalChangerLol105_.ZIndex = 2
+HazeLocalChangerLol105_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol105_.Text = "Login"
+HazeLocalChangerLol105_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol105_.TextSize = 12.000
+
+HazeLocalChangerLol106_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol106_.Parent = HazeLocalChangerLol105_
+
+HazeLocalChangerLol107_.Name = "KeyH"
+HazeLocalChangerLol107_.Parent = HazeLocalChangerLol100_
+HazeLocalChangerLol107_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol107_.Position = UDim2.new(0.0689999983, 0, 0.166411757, 0)
+HazeLocalChangerLol107_.Size = UDim2.new(0, 276, 0, 27)
+HazeLocalChangerLol107_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol107_.Text = ""
+HazeLocalChangerLol107_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol107_.TextSize = 14.000
+
+HazeLocalChangerLol108_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol108_.Parent = HazeLocalChangerLol107_
+
+HazeLocalChangerLol109_.Name = "Title"
+HazeLocalChangerLol109_.Parent = HazeLocalChangerLol107_
+HazeLocalChangerLol109_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol109_.BackgroundTransparency = 1.000
+HazeLocalChangerLol109_.Position = UDim2.new(0, 0, -0.690073669, 0)
+HazeLocalChangerLol109_.Size = UDim2.new(0, 68, 0, 18)
+HazeLocalChangerLol109_.Font = Enum.Font.SourceSansBold
+HazeLocalChangerLol109_.Text = "Input Key:"
+HazeLocalChangerLol109_.TextColor3 = Color3.fromRGB(186, 186, 186)
+HazeLocalChangerLol109_.TextSize = 14.000
+HazeLocalChangerLol109_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol110_.Parent = HazeLocalChangerLol107_
+HazeLocalChangerLol110_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol110_.BackgroundTransparency = 1.000
+HazeLocalChangerLol110_.Position = UDim2.new(0.0867769569, 0, 0, 0)
+HazeLocalChangerLol110_.Size = UDim2.new(0, 220, 0, 27)
+HazeLocalChangerLol110_.Font = Enum.Font.Arial
+HazeLocalChangerLol110_.Text = ""
+HazeLocalChangerLol110_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol110_.TextSize = 25.000
+
+HazeLocalChangerLol111_.Name = "Login"
+HazeLocalChangerLol111_.Parent = HazeLocalChangerLol92_
+HazeLocalChangerLol111_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol111_.BackgroundTransparency = 1.000
+HazeLocalChangerLol111_.Position = UDim2.new(0, 0, 0.170731649, 0)
+HazeLocalChangerLol111_.Size = UDim2.new(0, 320, 0, 192)
+HazeLocalChangerLol111_.Visible = false
+
+HazeLocalChangerLol112_.Parent = HazeLocalChangerLol111_
+HazeLocalChangerLol112_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol112_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol112_.Position = UDim2.new(0.559374988, 0, 0.703595757, 0)
+HazeLocalChangerLol112_.Size = UDim2.new(0, 55, 0, 28)
+HazeLocalChangerLol112_.ZIndex = 2
+HazeLocalChangerLol112_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol112_.Text = "Discord"
+HazeLocalChangerLol112_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol112_.TextSize = 12.000
+
+HazeLocalChangerLol113_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol113_.Parent = HazeLocalChangerLol112_
+
+HazeLocalChangerLol114_.Name = "Login2"
+HazeLocalChangerLol114_.Parent = HazeLocalChangerLol111_
+HazeLocalChangerLol114_.BackgroundColor3 = Color3.fromRGB(93, 81, 184)
+HazeLocalChangerLol114_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol114_.Position = UDim2.new(0.759374976, 0, 0.703595757, 0)
+HazeLocalChangerLol114_.Size = UDim2.new(0, 55, 0, 28)
+HazeLocalChangerLol114_.ZIndex = 2
+HazeLocalChangerLol114_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol114_.Text = "Login"
+HazeLocalChangerLol114_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol114_.TextSize = 12.000
+
+HazeLocalChangerLol115_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol115_.Parent = HazeLocalChangerLol114_
+
+HazeLocalChangerLol116_.Name = "User"
+HazeLocalChangerLol116_.Parent = HazeLocalChangerLol111_
+HazeLocalChangerLol116_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol116_.Position = UDim2.new(0.0687500015, 0, 0.0795447677, 0)
+HazeLocalChangerLol116_.Size = UDim2.new(0, 276, 0, 27)
+HazeLocalChangerLol116_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol116_.Text = ""
+HazeLocalChangerLol116_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol116_.TextSize = 14.000
+
+HazeLocalChangerLol117_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol117_.Parent = HazeLocalChangerLol116_
+
+HazeLocalChangerLol118_.Name = "Title"
+HazeLocalChangerLol118_.Parent = HazeLocalChangerLol116_
+HazeLocalChangerLol118_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol118_.BackgroundTransparency = 1.000
+HazeLocalChangerLol118_.Position = UDim2.new(0, 0, -0.85185194, 0)
+HazeLocalChangerLol118_.Size = UDim2.new(0, 68, 0, 23)
+HazeLocalChangerLol118_.Font = Enum.Font.SourceSansBold
+HazeLocalChangerLol118_.Text = "Username:"
+HazeLocalChangerLol118_.TextColor3 = Color3.fromRGB(186, 186, 186)
+HazeLocalChangerLol118_.TextSize = 14.000
+HazeLocalChangerLol118_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol119_.Parent = HazeLocalChangerLol116_
+HazeLocalChangerLol119_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol119_.BackgroundTransparency = 1.000
+HazeLocalChangerLol119_.Position = UDim2.new(0.0867769569, 0, 0, 0)
+HazeLocalChangerLol119_.Size = UDim2.new(0, 220, 0, 27)
+HazeLocalChangerLol119_.Font = Enum.Font.Arial
+HazeLocalChangerLol119_.Text = ""
+HazeLocalChangerLol119_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol119_.TextSize = 25.000
+
+HazeLocalChangerLol120_.Name = "Pass"
+HazeLocalChangerLol120_.Parent = HazeLocalChangerLol111_
+HazeLocalChangerLol120_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol120_.Position = UDim2.new(0.0687500015, 0, 0.411039889, 0)
+HazeLocalChangerLol120_.Size = UDim2.new(0, 276, 0, 27)
+HazeLocalChangerLol120_.Font = Enum.Font.SourceSans
+HazeLocalChangerLol120_.Text = ""
+HazeLocalChangerLol120_.TextColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol120_.TextSize = 14.000
+
+HazeLocalChangerLol121_.CornerRadius = UDim.new(0, 4)
+HazeLocalChangerLol121_.Parent = HazeLocalChangerLol120_
+
+HazeLocalChangerLol122_.Name = "Title"
+HazeLocalChangerLol122_.Parent = HazeLocalChangerLol120_
+HazeLocalChangerLol122_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol122_.BackgroundTransparency = 1.000
+HazeLocalChangerLol122_.Position = UDim2.new(0, 0, -0.85185194, 0)
+HazeLocalChangerLol122_.Size = UDim2.new(0, 68, 0, 23)
+HazeLocalChangerLol122_.Font = Enum.Font.SourceSansBold
+HazeLocalChangerLol122_.Text = "Password:"
+HazeLocalChangerLol122_.TextColor3 = Color3.fromRGB(186, 186, 186)
+HazeLocalChangerLol122_.TextSize = 14.000
+HazeLocalChangerLol122_.TextXAlignment = Enum.TextXAlignment.Left
+
+HazeLocalChangerLol123_.Parent = HazeLocalChangerLol120_
+HazeLocalChangerLol123_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol123_.BackgroundTransparency = 1.000
+HazeLocalChangerLol123_.Position = UDim2.new(0.0867769569, 0, 0, 0)
+HazeLocalChangerLol123_.Size = UDim2.new(0, 220, 0, 27)
+HazeLocalChangerLol123_.Font = Enum.Font.Arial
+HazeLocalChangerLol123_.Text = ""
+HazeLocalChangerLol123_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol123_.TextSize = 25.000
+
+HazeLocalChangerLol124_.Name = "Help"
+HazeLocalChangerLol124_.Parent = HazeLocalChangerLol111_
+HazeLocalChangerLol124_.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+HazeLocalChangerLol124_.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HazeLocalChangerLol124_.Position = UDim2.new(0.0687500015, 0, 0.703595757, 0)
+HazeLocalChangerLol124_.Size = UDim2.new(0, 17, 0, 17)
+HazeLocalChangerLol124_.ZIndex = 2
+HazeLocalChangerLol124_.Font = Enum.Font.ArialBold
+HazeLocalChangerLol124_.Text = "?"
+HazeLocalChangerLol124_.TextColor3 = Color3.fromRGB(255, 255, 255)
+HazeLocalChangerLol124_.TextSize = 12.000
+
+HazeLocalChangerLol125_.CornerRadius = UDim.new(1, 0)
+HazeLocalChangerLol125_.Parent = HazeLocalChangerLol124_
+
+-- Scripts:
+
+local function HazeLocalChangerLol126_func() -- Move.LocalScript
+    local HazeLocalChangerLol155_ = Instance.new('LocalScript', HazeLocalChangerLol12_)
+    print("Hello world!")
+    
+end
+coroutine.wrap(HazeLocalChangerLol126_func)()
+local function HazeLocalChangerLol127_func() -- Toggle.Script
+    local HazeLocalChangerLol156_ = Instance.new('LocalScript', HazeLocalChangerLol25_)
+    local HazeLocalChangerLol157_ = false -- The start state of the toggle
+    local HazeLocalChangerLol158_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol156_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol158_ == false then
+            if HazeLocalChangerLol157_ == true then -- If the toggle is already on
+                HazeLocalChangerLol158_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol156_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol156_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol158_ = false
+                HazeLocalChangerLol157_ = false
+                shared.MoneyFarm = false
+            elseif HazeLocalChangerLol157_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol158_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol156_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol156_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol158_ = false
+                HazeLocalChangerLol157_ = true
+                if login == true then
+                -- Naked
+                    local HazeLocalChangerLol159_ = game:GetService("Players").LocalPlayer.Character.Humanoid
+                    pcall(function()
+                        HazeLocalChangerLol159_.Parent.Pants:Destroy()
+                    end)
+                    pcall(function()
+                        HazeLocalChangerLol159_.Parent.Shirt:Destroy()
+                    end)
+    
+    
+    
+                --Anti Afk
+                    print("D")
+                    repeat
+                        wait()
+                    until game:IsLoaded()
+                    local HazeLocalChangerLol160_ = getrawmetatable(game)
+                    setreadonly(HazeLocalChangerLol160_, false)
+                    local HazeLocalChangerLol161_ = HazeLocalChangerLol160_.__namecall
+                    HazeLocalChangerLol160_.__namecall =
+                    newcclosure(
+                        function(HazeLocalChangerLol163_arg0, ...)
+                        local HazeLocalChangerLol164_ = {
+                            ...
+                        }
+                        if not checkcaller() and getnamecallmethod() == "FireServer" and tostring(HazeLocalChangerLol163_arg0) == "MainEvent" then
+                            if tostring(getcallingscript()) ~= "Framework" then
+                                return
+                            end
+                        end
+                        if not checkcaller() and getnamecallmethod() == "Kick" then
+                            return
+                        end
+                        return HazeLocalChangerLol161_(HazeLocalChangerLol163_arg0, unpack(HazeLocalChangerLol164_))
+                    end
+                    )
+                    local HazeLocalChangerLol162_ = game:GetService("Players").LocalPlayer
+                    function gettarget()
+                        local HazeLocalChangerLol165_ = HazeLocalChangerLol162_.Character or HazeLocalChangerLol162_.CharacterAdded:wait()
+                        local HazeLocalChangerLol166_ = HazeLocalChangerLol165_:WaitForChild("HumanoidRootPart") -- Getting Humanoid.
+                        local HazeLocalChangerLol167_ = math.huge
+                        local HazeLocalChangerLol168_
+                        for HazeLocalChangerLol169_forvar0, HazeLocalChangerLol170_forvar1 in pairs(game:GetService("Workspace").Cashiers:GetChildren()) do
+                            if HazeLocalChangerLol170_forvar1:FindFirstChild("Head") and HazeLocalChangerLol170_forvar1:FindFirstChild("Humanoid") and HazeLocalChangerLol170_forvar1.Humanoid.Health > 0 then -- This is set to head as you can only tp to head
+                                local HazeLocalChangerLol171_ = (HazeLocalChangerLol166_.Position - HazeLocalChangerLol170_forvar1.Head.Position).magnitude
+                                if HazeLocalChangerLol171_ < HazeLocalChangerLol167_ then
+                                    HazeLocalChangerLol168_ = HazeLocalChangerLol170_forvar1
+                                    HazeLocalChangerLol167_ = HazeLocalChangerLol171_
+                                end
+                            end
+                        end
+                        return HazeLocalChangerLol168_
+                    end
+                    for HazeLocalChangerLol172_forvar0, HazeLocalChangerLol173_forvar1 in pairs(workspace:GetDescendants()) do
+                        if HazeLocalChangerLol173_forvar1:IsA("Seat") then
+                            HazeLocalChangerLol173_forvar1:Destroy() -- Destroys Seating During Farm // Can Be Used As A Script Itself.
+                        end
+                    end
+                    shared.MoneyFarm = true -- Vice Versa // Set To False To Stop Autofarming (Can Be In Same Button)
+                    while shared.MoneyFarm do
+                        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Atm Farm Unpatched (Free) ", "All") -- Creates A Text every single time you get to a new atm
+                        wait()
+                        local HazeLocalChangerLol174_ = gettarget()
+                        repeat
+                            wait()
+                            pcall(
+                            function()
+                                local HazeLocalChangerLol175_ = HazeLocalChangerLol162_.Character or HazeLocalChangerLol162_.CharacterAdded:wait()
+                                local HazeLocalChangerLol176_ = HazeLocalChangerLol175_:WaitForChild("HumanoidRootPart")
+                                local HazeLocalChangerLol177_ = HazeLocalChangerLol162_.Backpack:FindFirstChild("Combat") or HazeLocalChangerLol175_:FindFirstChild("Combat") -- Finding Fist // Set To Wallet For Test. -- Revolver // Double Shotgun // Combat Etc
+                                if not HazeLocalChangerLol177_ then
+                                    HazeLocalChangerLol175_:FindFirstChild("Humanoid").Health = 0
+                                    return
+                                end
+                                HazeLocalChangerLol176_.CFrame = HazeLocalChangerLol174_.Head.CFrame * CFrame.new(0, -2.5, 3) -- Cframe tp (dont change it tps you perfeclty infront of the atm)
+                                HazeLocalChangerLol177_.Parent = HazeLocalChangerLol175_
+                                HazeLocalChangerLol177_:Activate() -- Pulls out fists
+                            end
+                        )
+                        until not HazeLocalChangerLol174_ or HazeLocalChangerLol174_.Humanoid.Health < 0
+                        for HazeLocalChangerLol178_forvar0, HazeLocalChangerLol179_forvar1 in pairs(game:GetService("Workspace").Ignored.Drop:GetDescendants()) do
+                            if HazeLocalChangerLol179_forvar1:IsA("ClickDetector") and HazeLocalChangerLol179_forvar1.Parent and HazeLocalChangerLol179_forvar1.Parent.Name:find("Money") then -- Detecting Money
+                                local HazeLocalChangerLol180_ = HazeLocalChangerLol162_.Character or HazeLocalChangerLol162_.CharacterAdded:wait()
+                                local HazeLocalChangerLol181_ = HazeLocalChangerLol180_:WaitForChild("HumanoidRootPart")
+                                if (HazeLocalChangerLol179_forvar1.Parent.Position - HazeLocalChangerLol181_.Position).magnitude <= 18 then
+                                    repeat
+                                        wait()
+                                        fireclickdetector(HazeLocalChangerLol179_forvar1)
+                                    until not HazeLocalChangerLol179_forvar1 or not HazeLocalChangerLol179_forvar1.Parent.Parent
+                                end
+                            end
+                        end
+                        wait(1.3)
+                    end
+                end --When true
+            end
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol127_func)()
+local function HazeLocalChangerLol128_func() -- Toggle_2.Script
+    local HazeLocalChangerLol182_ = Instance.new('LocalScript', HazeLocalChangerLol29_)
+    local HazeLocalChangerLol183_ = false -- The start state of the toggle
+    local HazeLocalChangerLol184_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol182_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol184_ == false then
+            if HazeLocalChangerLol183_ == true then -- If the toggle is already on
+                HazeLocalChangerLol184_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol184_ = false
+                HazeLocalChangerLol183_ = false
+                getgenv().shoefarm = false
+                game.Players.LocalPlayer.Character.Humanoid:Destroy()
+            elseif HazeLocalChangerLol183_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol184_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol182_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol184_ = false
+                HazeLocalChangerLol183_ = true
+                -- Shoe Farm By Haze
+                getgenv().shoefarm = true
+                coroutine.wrap(function()
+                    game:GetService("RunService").Stepped:Connect(function()
+                        if getgenv().shoefarm == true then
+                        end
+                    end)
+                end)()
+                while getgenv().shoefarm == true do
+                    wait()
+                    for HazeLocalChangerLol185_forvar0, HazeLocalChangerLol186_forvar1 in pairs(game.Workspace.Ignored.Drop:GetChildren()) do
+                        if HazeLocalChangerLol186_forvar1:IsA("MeshPart") then
+                            local HazeLocalChangerLol187_ = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - HazeLocalChangerLol186_forvar1.Position).magnitude
+                            if HazeLocalChangerLol187_ < 200 then
+                                wait(0.1)
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol186_forvar1.CFrame * CFrame.new(-5, 0, 0)
+                                wait(0.1)
+                                fireclickdetector(HazeLocalChangerLol186_forvar1.ClickDetector)
+                            else
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol186_forvar1.CFrame * CFrame.new(-5, 0, 0)
+                            end
+                        end
+                    end
+                    if game.Workspace.Ignored.Drop:FindFirstChild("MeshPart") == nil then
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Ignored["Clean the shoes on the floor and come to me for cash"].HumanoidRootPart.CFrame * CFrame.new(0, -5, 0)
+                        wait(0.3)
+                        fireclickdetector(game.Workspace.Ignored["Clean the shoes on the floor and come to me for cash"].ClickDetector)
+                    end
+                end
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol128_func)()
+local function HazeLocalChangerLol129_func() -- Toggle_3.Script
+    local HazeLocalChangerLol188_ = Instance.new('LocalScript', HazeLocalChangerLol33_)
+    local HazeLocalChangerLol189_ = false -- The start state of the toggle
+    local HazeLocalChangerLol190_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol188_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol190_ == false then
+            if HazeLocalChangerLol189_ == true then -- If the toggle is already on
+                HazeLocalChangerLol190_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol188_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol188_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol190_ = false
+                HazeLocalChangerLol189_ = false
+                _G.toggle = false
+            elseif HazeLocalChangerLol189_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol190_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol188_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol188_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol190_ = false
+                HazeLocalChangerLol189_ = true
+                --BROUGHT TO YOU BY RSCRIPTS.NET!--
+                _G.toggle = true -- if you want to turn it off change to false and re-execute
+                game:getService("RunService"):BindToRenderStep(
+                "",
+                0,
+                function()
+                    if not game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid") then
+                        return
+                    end
+                    while wait() do
+                        if _G.toggle == true then
+                            game.Players.LocalPlayer.Character:findFirstChildOfClass("Humanoid")
+                        end
+                    end
+                end
+                )
+                while wait(1) do
+                    if _G.toggle == true then
+                        pcall(
+                            function()
+                            for HazeLocalChangerLol192_forvar0, HazeLocalChangerLol193_forvar1 in pairs(game:GetService("Workspace").Ignored.HospitalJob:GetChildren()) do
+                                if HazeLocalChangerLol193_forvar1:IsA("Model") then
+                                    _G.patient = HazeLocalChangerLol193_forvar1.Name
+                                    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame =
+                                            game.Workspace.Ignored.HospitalJob[HazeLocalChangerLol193_forvar1.Name].HumanoidRootPart.CFrame *
+                                            CFrame.new(Vector3.new(0, -6.5, 0), Vector3.new(0, 100, 0))
+                                end
+                            end
+                            for HazeLocalChangerLol194_forvar0, HazeLocalChangerLol195_forvar1 in pairs(game.Workspace.Ignored.HospitalJob:GetChildren()) do
+                                if HazeLocalChangerLol195_forvar1.Name == "Can I get the Red bottle" then
+                                    local HazeLocalChangerLol196_ = game.Workspace.Ignored.HospitalJob.Red.ClickDetector
+                                    fireclickdetector(HazeLocalChangerLol196_)
+                                elseif HazeLocalChangerLol195_forvar1.Name == "Can I get the Blue bottle" then
+                                    local HazeLocalChangerLol197_ = game.Workspace.Ignored.HospitalJob.Blue.ClickDetector
+                                    fireclickdetector(HazeLocalChangerLol197_)
+                                elseif HazeLocalChangerLol195_forvar1.Name == "Can I get the Green bottle" then
+                                    local HazeLocalChangerLol198_ = game.Workspace.Ignored.HospitalJob.Green.ClickDetector
+                                    fireclickdetector(HazeLocalChangerLol198_)
+                                end
+                            end
+                            local HazeLocalChangerLol191_ = game:GetService("Workspace").Ignored.HospitalJob[_G.patient].ClickDetector
+                            fireclickdetector(HazeLocalChangerLol191_)
+                        end
+                        )
+                    elseif _G.toggle == false then
+                        return
+                    end
+                end
+            end
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol129_func)()
+local function HazeLocalChangerLol130_func() -- Toggle_4.Script
+    local HazeLocalChangerLol199_ = Instance.new('LocalScript', HazeLocalChangerLol37_)
+    local HazeLocalChangerLol200_ = false -- The start state of the toggle
+    local HazeLocalChangerLol201_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    local HazeLocalChangerLol202_ = game.Players.LocalPlayer
+    HazeLocalChangerLol199_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol201_ == false then
+            if HazeLocalChangerLol200_ == true then -- If the toggle is already on
+                HazeLocalChangerLol201_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol199_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol199_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol201_ = false
+                HazeLocalChangerLol200_ = false
+                HazeLocalChangerLol202_.Character["[Lettuce]"]:Activate()
+            elseif HazeLocalChangerLol200_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol201_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol199_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol199_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol201_ = false
+                HazeLocalChangerLol200_ = true
+                local HazeLocalChangerLol203_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
+    
+                
+                ----------------------------------- | Don't worry about the rest
+                local HazeLocalChangerLol204_ = game:GetService("Workspace").Ignored.Shop["[Lettuce] - $5"]
+                local HazeLocalChangerLol205_ = true
+                HazeLocalChangerLol202_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol204_.Head.CFrame
+                fireclickdetector(HazeLocalChangerLol204_.ClickDetector)
+                HazeLocalChangerLol202_.Backpack["[Lettuce]"].Parent = HazeLocalChangerLol202_.Character
+                HazeLocalChangerLol205_ = true
+                while HazeLocalChangerLol205_ do
+                    fireclickdetector(HazeLocalChangerLol204_.ClickDetector)
+                    HazeLocalChangerLol202_.Character["[Lettuce]"]:Activate()
+                    if HazeLocalChangerLol203_ then
+                        HazeLocalChangerLol202_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
+                    end
+                    wait()
+                end
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol130_func)()
+local function HazeLocalChangerLol131_func() -- Toggle_5.Script
+    local HazeLocalChangerLol206_ = Instance.new('LocalScript', HazeLocalChangerLol41_)
+    local HazeLocalChangerLol207_ = false -- The start state of the toggle
+    local HazeLocalChangerLol208_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol206_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol208_ == false then
+            if HazeLocalChangerLol207_ == true then -- If the toggle is already on
+                HazeLocalChangerLol208_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol206_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol206_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol208_ = false
+                HazeLocalChangerLol207_ = false
+                getgenv().shoefarm = false
+                game.Players.LocalPlayer.Character.Humanoid:Destroy()
+            elseif HazeLocalChangerLol207_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol208_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol206_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol206_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol208_ = false
+                HazeLocalChangerLol207_ = true
+                local HazeLocalChangerLol209_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
+    
+    
+                ----------------------------------- | Don't worry about the rest
+                local HazeLocalChangerLol210_ = game.Players.LocalPlayer
+                local HazeLocalChangerLol211_ = game:GetService("Workspace").Ignored.Shop["[HeavyWeights] - $250"]
+                local HazeLocalChangerLol212_ = false
+                HazeLocalChangerLol210_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol211_.Head.CFrame
+                wait(0.5)
+                fireclickdetector(HazeLocalChangerLol211_.ClickDetector)
+                wait(1)
+                HazeLocalChangerLol210_.Backpack["[HeavyWeights]"].Parent = HazeLocalChangerLol210_.Character
+                wait(1)
+                HazeLocalChangerLol212_ = true
+                while HazeLocalChangerLol212_ do
+                    if HazeLocalChangerLol209_ then
+                        HazeLocalChangerLol210_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
+                    end
+                    HazeLocalChangerLol210_.Character["[HeavyWeights]"]:Activate()
+                    wait()
+                end
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol131_func)()
+local function HazeLocalChangerLol132_func() -- Toggle_6.Script
+    local HazeLocalChangerLol213_ = Instance.new('LocalScript', HazeLocalChangerLol50_)
+    local HazeLocalChangerLol214_ = false -- The start state of the toggle
+    local HazeLocalChangerLol215_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol213_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol215_ == false then
+            if HazeLocalChangerLol214_ == true then -- If the toggle is already on
+                HazeLocalChangerLol215_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol213_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol213_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol215_ = false
+                HazeLocalChangerLol214_ = false
+                print("OFF")
+            elseif HazeLocalChangerLol214_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol215_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol213_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol213_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol215_ = false
+                HazeLocalChangerLol214_ = true
+                --Anti Afk
+                local HazeLocalChangerLol216_ = game:GetService("VirtualUser")
+                game:GetService("Players").LocalPlayer.Idled:connect(function()
+                    HazeLocalChangerLol216_:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+                    wait(1)
+                    HazeLocalChangerLol216_:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+                end)
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol132_func)()
+local function HazeLocalChangerLol133_func() -- Toggle_7.Script
+    local HazeLocalChangerLol217_ = Instance.new('LocalScript', HazeLocalChangerLol54_)
+    local HazeLocalChangerLol218_ = false -- The start state of the toggle
+    local HazeLocalChangerLol219_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol217_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol219_ == false then
+            if HazeLocalChangerLol218_ == true then -- If the toggle is already on
+                HazeLocalChangerLol219_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol217_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol217_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol219_ = false
+                HazeLocalChangerLol218_ = false
+            elseif HazeLocalChangerLol218_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol219_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol217_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol217_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol219_ = false
+                HazeLocalChangerLol218_ = true
+                if login == true then
+                    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loading ", "All")
+                    wait(2)
+                    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Stampy's Crasher V2 Loaded ", "All")
+                    wait(1)
+                    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Dont Leave Be Patient :)", "All")
+                    local HazeLocalChangerLol220_ = 'Wallet'
+                    local HazeLocalChangerLol221_ = game.Players.LocalPlayer
+                    local HazeLocalChangerLol222_ = HazeLocalChangerLol221_.Character
+                    local HazeLocalChangerLol223_ = HazeLocalChangerLol221_.Backpack
+                    game["Run Service"].Stepped:Connect(function()
+                        game["Run Service"].Stepped:Connect(function()
+                            if HazeLocalChangerLol222_:FindFirstChild(HazeLocalChangerLol220_) then
+                                HazeLocalChangerLol222_:FindFirstChild(HazeLocalChangerLol220_).Parent = HazeLocalChangerLol223_
+                            else
+                                HazeLocalChangerLol223_:FindFirstChild(HazeLocalChangerLol220_).Parent = HazeLocalChangerLol222_
+                            end
+                        end)
+                    end)
+                end
+            end
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol133_func)()
+local function HazeLocalChangerLol134_func() -- Toggle_8.Script
+    local HazeLocalChangerLol224_ = Instance.new('LocalScript', HazeLocalChangerLol58_)
+    local HazeLocalChangerLol225_ = false -- The start state of the toggle
+    local HazeLocalChangerLol226_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol224_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol226_ == false then
+            if HazeLocalChangerLol225_ == true then -- If the toggle is already on
+                HazeLocalChangerLol226_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol224_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol224_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol226_ = false
+                HazeLocalChangerLol225_ = false
+            elseif HazeLocalChangerLol225_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol226_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol224_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol224_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol226_ = false
+                HazeLocalChangerLol225_ = true
+                local HazeLocalChangerLol227_ = game.Players.LocalPlayer
+                local HazeLocalChangerLol228_ = game:GetService'Players'.LocalPlayer
+                local HazeLocalChangerLol229_ = '[Surgeon Mask] - $25'
+                local HazeLocalChangerLol230_ = game.Workspace.Ignored.Shop[HazeLocalChangerLol229_]
+                local HazeLocalChangerLol231_ = HazeLocalChangerLol228_.Character.HumanoidRootPart.Position
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol230_.Head.CFrame + Vector3.new(0, 3, 0)
+                wait(0.2)
+                fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol229_].ClickDetector)
+                fireclickdetector(game.Workspace.Ignored.Shop[HazeLocalChangerLol229_].ClickDetector)
+                HazeLocalChangerLol228_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol231_)
+                HazeLocalChangerLol228_.Character.HumanoidRootPart.CFrame = CFrame.new(HazeLocalChangerLol231_)
+                HazeLocalChangerLol227_.Character["[Surgeon Mask]"]:Activate()
+            end
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol134_func)()
+local function HazeLocalChangerLol135_func() -- Toggle_9.Script
+    local HazeLocalChangerLol232_ = Instance.new('LocalScript', HazeLocalChangerLol67_)
+    local HazeLocalChangerLol233_ = false -- The start state of the toggle
+    local HazeLocalChangerLol234_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol232_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol234_ == false then
+            if HazeLocalChangerLol233_ == true then -- If the toggle is already on
+                HazeLocalChangerLol234_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol234_ = false
+                HazeLocalChangerLol233_ = false
+                print("OFF")
+            elseif HazeLocalChangerLol233_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol234_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol232_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol234_ = false
+                HazeLocalChangerLol233_ = true
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/xaxaxaxaxaxaxaxaxa/Bypasses/main/Da-Hood", true))()
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol135_func)()
+local function HazeLocalChangerLol136_func() -- Toggle_10.Script
+    local HazeLocalChangerLol235_ = Instance.new('LocalScript', HazeLocalChangerLol71_)
+    local HazeLocalChangerLol236_ = false -- The start state of the toggle
+    local HazeLocalChangerLol237_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol235_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol237_ == false then
+            if HazeLocalChangerLol236_ == true then -- If the toggle is already on
+                HazeLocalChangerLol237_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol235_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol235_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol237_ = false
+                HazeLocalChangerLol236_ = false
+            elseif HazeLocalChangerLol236_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol237_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol235_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol235_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol237_ = false
+                HazeLocalChangerLol236_ = true
+                while true do
+                    local HazeLocalChangerLol238_ = game:GetService("Players").LocalPlayer.PlayerGui.MainScreenGui
+                    if HazeLocalChangerLol238_:FindFirstChild("whiteScreen") then
+                        HazeLocalChangerLol238_.whiteScreen:Destroy()
+                    end
+                    wait(0.2)
+                end
+            end
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol136_func)()
+local function HazeLocalChangerLol137_func() -- Toggle_11.Script
+    local HazeLocalChangerLol239_ = Instance.new('LocalScript', HazeLocalChangerLol75_)
+    local HazeLocalChangerLol240_ = false -- The start state of the toggle
+    local HazeLocalChangerLol241_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol239_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol241_ == false then
+            if HazeLocalChangerLol240_ == true then -- If the toggle is already on
+                HazeLocalChangerLol241_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol241_ = false
+                HazeLocalChangerLol240_ = false
+            elseif HazeLocalChangerLol240_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol241_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol239_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol241_ = false
+                HazeLocalChangerLol240_ = true
+                syn.run_secure_lua("OXbUTZZnKA5ZY1mgnRKzQSMVb/DjEe9EFrsxp6vHfpKyzGfiaWxliCDDO017FSqOSf3xydGiPcVjRxzBkIW62l8AYtSZblG8OQPA1z201BpuZF5rsArUMWHMXTyNkVXsOiTUcepuSjvqP/EJTL0iJ5JIlQyRuZhEJVSBfqmPeMdaz1IWZP7qoZO790hkO/st2qRNF9E2zKYKO6JWxG8XVR88/c18YCv80i3j77mVxT+Xvfqh7Ow9O9TyMyVSAYpDwpq92Cui232ukAw4eV8dYBxRzucCebAYRhBu7s4uG71VYKORfCBqqOOi3iUQMTt9p5MtdwuRJIvt+44+M3wB6jBohpbO8K7LmIZECdkmUzuPKSBlSYofHkH/GlYOw1R+tO1Vg0G+vTjN2qVvFNmLfGapQNiMLx+LJOm34KiPmT+Vi85MwbYyyB/6sabRrTDS8So90g8QCoPmQcectG/GKhZ7P65yqyx1RefKR9VsYgRUaZkeHHzK8BAEjQGp+xJmQphHWj2rIFojoSdLr31J/zpDZQ3SJtkvI7FZyRUsDFUdLwUCvcrD9Qcm3TpVxl1/ZrkEX8yG8aX1FYj9gwDZSEQdet+MASAGNR8PZooQc47u/CEdIH7A/4sim/MRnYl8KDAtmDpI2HD5bDuv6ix84BZ/2hIZaeYE2Q//5JOf1qhDarSf9E5HaPLfoR48l26JP71th2leN4DcxbyHqPJwlwKfktXs7fzY5ihbFUAsM0OGDcAgvlYgl+Oo0x7P+2jBTye2q0wSzlVrOTRT2cGkX5PbP4YiX6TuKSxUJJ8c5DMAjGYg3ijkDEOEf0za9LVGg5w222za1+qHtMwttNV+kvgvhwKgFA+/zijZaeFzRo9bfikvAe3d2W89q0xt61jCdZzA++YIXGKC6oxPJj+9kkjA96nOIgcXQVuCKAjmpmxUKBpk2Tuh0s1WBTzVxkYDxT1wrxLvkRMz+Yz8DZihdRVZf0TLN2/g/4005r51wjYypn+9q1wYNTRMWT5WjoExBt+bhc+nM6MnHFFUq2gMRUO9tRD3x3raLmVxvQUyzJCN9r5ZO/KN3POwL1jrdpA8zMAR+EOjZdIKNj9tuNhkCZXo3qyTMvVoot1vbWlKE4m2qbhmChtTdjEC9tK/Ri0sblna6mWY29QAyvD5HPPXE0ABWW4O6wx7RAn9CRtI+blt/Nn7KULd/JAecNUPrPs2znm7B+oEjsQYZBjGtRooPuD8TUPd7M9coJLKELdQyTmrgFG2G9/3a/myFJv/38DZrf90tEsqLS3MU0WA932sG35GEIMoWX0EXcPTdIh1giJ/BGmczWQW/xq8SiR6y85EK6w3z/7KpO2kvXLOwxlxfLnwSy5X7jltW5HPED6nYDtdjkqJ9EQoLdPon+LMPpkaxa8c/4BkuQJsAxSoY7N5sKsC/Ac8JPE5K+zHPLR4fNiJK6D3o/5YVFxK9i8jdcAPZQYvRZvcPCGTuScYd70yKQ07eqgMhaCQq/OKDKLmt1CJnIM/AsaTQJFgGKTURDQK3d/nXHPpx953L3oPZc1L5DGmBmJqvJqN0bbv0HqLcwgomoIOZTQq8jNTeUSdtJ+70/DTwOm2wvsvuxJ0qtzOjPg7+kckt8ZEPl4GFXY+BHqOg4VN5e9XsesJZLvWlV//Sv1Fl0m7ji+0p2z48/A66ZNnJJfKZQJOs0ajLg5XTk/9NHHXUBnGBV94FmQl5GGyv1myd1XhtfK7YZ5PMobEnL8hjy0nDs0ptmNNkxs/Ly/CtzPlfcj0UVz+/LkQGrfwoBosd53jOBSqdicCW0m0OITdaWzAA+Tj6rN8HOtAMwZmv0DaO7zcErW6u0aACmclVzKH4W3eqf78UTjnYXCDPrHKBgurLcCOKY6ouec6/zRuKs3Wtaq8L2PMulPmz2U1qfYFcZjnZrA1k6b2DAUBJsqyVuPQZPRQg9oVPLCKTLVA+Zl4WA6SYpB2O+wmmIk+Rpk1EEraD82mLAMSJvqRnWaxKcKfsMR/rfKC4n0dITzVuLZPax3hbpvkYSNVcUp3oQnh/krOjY4NwjYKAReQAqhakof/32qdbEkAcTcX4yU0XJI3s6yYNuR468a9XMfgqUsm9WB/uFOzdHo8FWxk9qwtEAf+SDvFkuA7d8bRobxEGI0bu8rEE2DHZNNJGrZtplAl99fRozrn9K1NxDuLQCtzReqHOjTVFsecisW8U2iPIbRzTIduso6p2Lm3/I3rlyr+WXZQ8aBD4ofCqb01naVs8aqaXeaVDs14rLhSbQfJRrkifzwZqPF25HIuDvZDkfiIporWV1erT9ocESiKxLkieqAd++AIzmSHUOSBxPPKa5PQjxiG/fDUsmlLc4F4CHFIJMXZC9CNTCXrv5Rl7r5r5pODUiAYyCIplXPmhp6jVsHpcplKCfreS6X/EgL5o3/hYs4N32ABrX6C+pNd4/D8AOIzMwr0V5Plu4Ky2CxnDIKLUzI5zjEb7e91ZynLG6SS4vaP43qCJAXAMUgcfUQpyWunnUwH3lHDimzq/mVUFpb4Dq1vvNoDPo72TyUO/j2uswWCDwP5dY2wgC6L1vNaF7CCp6HsXZIbt/yzNG/o1IP7aRKjAkVYVyq3e9ooENIITwmkCJVS0/dnRflmfSrd+yJp+HNpizQZfpEGyz135m3Nw0zNELJXL8RS+cYqkDQaYL6ilEH5jI0bQmB3z+kLEq8AXmQdOgZWj4wLsmLbH/+ch0d6uvZSTkogzvx57YFqgXH8SJrWVPBDVhvGm1p6KYXmf+3CV0psfxmTaEuwu2Gt/lVBRga+oNKD43tx+nXnPYQGq+F44g+GXJJBg3zDXMulZx7PS3uwuWPctspzAeb1Ww8lV84t1b8DFnfAXeemzQundf26OkEdvWo4PFktTlkpBwM6g1zl4W12ACJfwmYFJs46E8T9maUV9sRNAiPgZSQRt43SmoGF/8SH8f/aXB3s8kqMlSt2S3jMM1pm6K65NBGJ03Xq1gp3X9Tz")
+            end
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol137_func)()
+local function HazeLocalChangerLol138_func() -- Toggle_12.Script
+    local HazeLocalChangerLol242_ = Instance.new('LocalScript', HazeLocalChangerLol79_)
+    local HazeLocalChangerLol243_ = false -- The start state of the toggle
+    local HazeLocalChangerLol244_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol242_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol244_ == false then
+            if HazeLocalChangerLol243_ == true then -- If the toggle is already on
+                HazeLocalChangerLol244_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol242_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol242_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol244_ = false
+                HazeLocalChangerLol243_ = false
+            elseif HazeLocalChangerLol243_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol244_ = true
+                loadstring(game:HttpGet("https://pastebin.com/raw/A7Qtx7D3", true))()
+            end
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol138_func)()
+local function HazeLocalChangerLol139_func() -- Toggle_13.Script
+    local HazeLocalChangerLol245_ = Instance.new('LocalScript', HazeLocalChangerLol85_)
+    local HazeLocalChangerLol246_ = false -- The start state of the toggle
+    local HazeLocalChangerLol247_ = false -- Debounce / cooldown so you cant spam the toggle and break it
+    HazeLocalChangerLol245_.Parent.Button.MouseButton1Click:Connect(function() -- Gets executed when you click the button
+        if HazeLocalChangerLol247_ == false then
+            if HazeLocalChangerLol246_ == true then -- If the toggle is already on
+                HazeLocalChangerLol247_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol245_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(31, 31, 31)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol245_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 4, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol247_ = false
+                HazeLocalChangerLol246_ = false
+                getgenv().shoefarm = false
+                game.Players.LocalPlayer.Character.Humanoid:Destroy()
+            elseif HazeLocalChangerLol246_ == false then -- If the toggle isnt already on
+                HazeLocalChangerLol247_ = true
+                game:GetService("TweenService"):Create(HazeLocalChangerLol245_.Parent, TweenInfo.new(0.25), {
+                    ImageColor3 = Color3.fromRGB(94, 105, 255)
+                }):Play()
+                game:GetService("TweenService"):Create(HazeLocalChangerLol245_.Parent.Circle, TweenInfo.new(0.25), {
+                    Position = UDim2.new(0, 18, 0, 3)
+                }):Play()
+                wait(0.25)
+                HazeLocalChangerLol247_ = false
+                HazeLocalChangerLol246_ = true
+                local HazeLocalChangerLol248_ = false; -- If you want to be teleported to a safe zone away from players (true = yes, false = no)
+    
+    
+                ----------------------------------- | Don't worry about the rest
+                local HazeLocalChangerLol249_ = game.Players.LocalPlayer
+                local HazeLocalChangerLol250_ = game:GetService("Workspace").Ignored.Shop["[HeavyWeights] - $250"]
+                local HazeLocalChangerLol251_ = false
+                HazeLocalChangerLol249_.Character.HumanoidRootPart.CFrame = HazeLocalChangerLol250_.Head.CFrame
+                wait(0.5)
+                fireclickdetector(HazeLocalChangerLol250_.ClickDetector)
+                wait(1)
+                HazeLocalChangerLol249_.Backpack["[HeavyWeights]"].Parent = HazeLocalChangerLol249_.Character
+                wait(1)
+                HazeLocalChangerLol251_ = true
+                while HazeLocalChangerLol251_ do
+                    if HazeLocalChangerLol248_ then
+                        HazeLocalChangerLol249_.Character.HumanoidRootPart.CFrame = CFrame.new(86.081665, -25.2122707, -337.847443)
+                    end
+                    HazeLocalChangerLol249_.Character["[HeavyWeights]"]:Activate()
+                    wait()
+                end
+            end --When true
+        end
+    end)
+    
+end
+coroutine.wrap(HazeLocalChangerLol139_func)()
+local function HazeLocalChangerLol140_func() -- Script.LocalScript
+    local HazeLocalChangerLol252_ = Instance.new('LocalScript', HazeLocalChangerLol2_)
+    local HazeLocalChangerLol253_ = game:GetService("UserInputService")
+    local HazeLocalChangerLol254_ = HazeLocalChangerLol252_.Parent
+    local HazeLocalChangerLol255_
+    local HazeLocalChangerLol256_
+    local HazeLocalChangerLol257_
+    local HazeLocalChangerLol258_
+    local function HazeLocalChangerLol259_func(HazeLocalChangerLol260_arg0)
+        local HazeLocalChangerLol261_ = HazeLocalChangerLol260_arg0.Position - HazeLocalChangerLol257_
+        HazeLocalChangerLol254_.Position = HazeLocalChangerLol254_:TweenPosition(UDim2.new(HazeLocalChangerLol258_.X.Scale, HazeLocalChangerLol258_.X.Offset + HazeLocalChangerLol261_.X, HazeLocalChangerLol258_.Y.Scale, HazeLocalChangerLol258_.Y.Offset + HazeLocalChangerLol261_.Y), 'Out', 'Linear', 0.06, true); -- drag speed
+    end
+    HazeLocalChangerLol254_.InputBegan:Connect(function(HazeLocalChangerLol262_arg0)
+        if HazeLocalChangerLol262_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol262_arg0.UserInputType == Enum.UserInputType.Touch then
+            HazeLocalChangerLol255_ = true
+            HazeLocalChangerLol257_ = HazeLocalChangerLol262_arg0.Position
+            HazeLocalChangerLol258_ = HazeLocalChangerLol254_.Position
+            HazeLocalChangerLol262_arg0.Changed:Connect(function()
+                if HazeLocalChangerLol262_arg0.UserInputState == Enum.UserInputState.End then
+                    HazeLocalChangerLol255_ = false
+                end
+            end)
+        end
+    end)
+    HazeLocalChangerLol254_.InputChanged:Connect(function(HazeLocalChangerLol263_arg0)
+        if HazeLocalChangerLol263_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol263_arg0.UserInputType == Enum.UserInputType.Touch then
+            HazeLocalChangerLol256_ = HazeLocalChangerLol263_arg0
+        end
+    end)
+    HazeLocalChangerLol253_.InputChanged:Connect(function(HazeLocalChangerLol264_arg0)
+        if HazeLocalChangerLol264_arg0 == HazeLocalChangerLol256_ and HazeLocalChangerLol255_ then
+            HazeLocalChangerLol259_func(HazeLocalChangerLol264_arg0)
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol140_func)()
+local function HazeLocalChangerLol141_func() -- Script.LocalScript
+    local HazeLocalChangerLol265_ = Instance.new('LocalScript', HazeLocalChangerLol2_)
+    if login == true then
+        HazeLocalChangerLol265_.Parent.Parent.Script.Visible = true
+    else
+        HazeLocalChangerLol265_.Parent.Parent.Script:Destroy()
+    end
+end
+coroutine.wrap(HazeLocalChangerLol141_func)()
+local function HazeLocalChangerLol142_func() -- ImageButton_2.LocalScript
+    local HazeLocalChangerLol266_ = Instance.new('LocalScript', HazeLocalChangerLol97_)
+    HazeLocalChangerLol266_.Parent.MouseButton1Click:Connect(function()
+        HazeLocalChangerLol266_.Parent.Parent.Parent.Parent.KeySys:Destroy()
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol142_func)()
+local function HazeLocalChangerLol143_func() -- Login.LocalScript
+    local HazeLocalChangerLol267_ = Instance.new('LocalScript', HazeLocalChangerLol98_)
+    local HazeLocalChangerLol268_ = false;
+    local HazeLocalChangerLol269_ = HazeLocalChangerLol267_.Parent.Parent.Parent.Parent.KeySys
+    local function HazeLocalChangerLol270_func(...)
+        for HazeLocalChangerLol272_forvar0, HazeLocalChangerLol273_forvar1 in pairs(HazeLocalChangerLol269_:GetDescendants()) do
+            if HazeLocalChangerLol273_forvar1:IsA(...) then
+                HazeLocalChangerLol273_forvar1.Visible = false
+            end
+        end
+    end
+    local function HazeLocalChangerLol271_func(...)
+        for HazeLocalChangerLol274_forvar0, HazeLocalChangerLol275_forvar1 in pairs(HazeLocalChangerLol269_:GetDescendants()) do
+            if HazeLocalChangerLol275_forvar1:IsA(...) then
+                HazeLocalChangerLol275_forvar1.Visible = true
+            end
+        end
+    end
+    HazeLocalChangerLol267_.Parent.MouseButton1Click:Connect(function()
+        if HazeLocalChangerLol268_ then
+            HazeLocalChangerLol268_ = not HazeLocalChangerLol268_
+        else
+            HazeLocalChangerLol268_ = true
+        end
+        if HazeLocalChangerLol268_ then
+            HazeLocalChangerLol269_.Home.Visible = false
+            HazeLocalChangerLol267_.Parent.Text = "Back"
+            HazeLocalChangerLol270_func("", "ImageButton", "TextLabel", "Frame")
+            HazeLocalChangerLol269_:TweenSize(UDim2.new(0, 320, 0, 232), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 0.4, true)
+            wait(0.3)
+            HazeLocalChangerLol269_.Login.Visible = true
+        else
+            HazeLocalChangerLol271_func("", "ImageButton", "TextLabel", "Frame")
+            HazeLocalChangerLol269_:TweenSize(UDim2.new(0, 320, 0, 164), Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.4, true) -- change to the starting position
+            HazeLocalChangerLol269_.Login.Visible = false
+            wait(0.3)
+            HazeLocalChangerLol269_.Home.Visible = true
+            HazeLocalChangerLol267_.Parent.Text = "Login"
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol143_func)()
+local function HazeLocalChangerLol144_func() -- Buy.LocalScript
+    local HazeLocalChangerLol276_ = Instance.new('LocalScript', HazeLocalChangerLol101_)
+
+    
+end
+coroutine.wrap(HazeLocalChangerLol144_func)()
+local function HazeLocalChangerLol145_func() -- Help.LocalScript
+    local HazeLocalChangerLol277_ = Instance.new('LocalScript', HazeLocalChangerLol103_)
+
+    
+end
+coroutine.wrap(HazeLocalChangerLol145_func)()
+local function HazeLocalChangerLol146_func() -- Logn1.LocalScript
+    local HazeLocalChangerLol278_ = Instance.new('LocalScript', HazeLocalChangerLol105_)
+    HazeLocalChangerLol278_.Parent.MouseButton1Click:Connect(function()
+        --Checker
+        if HazeLocalChangerLol278_.Parent.Parent.Parent.Home.KeyH.Text == "Test" then
+            print("Key Found!")
+            free = true
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol146_func)()
+local function HazeLocalChangerLol147_func() -- KeyH.LocalScript
+    local HazeLocalChangerLol279_ = Instance.new('LocalScript', HazeLocalChangerLol107_)
+    local HazeLocalChangerLol280_ = HazeLocalChangerLol279_.Parent
+    local HazeLocalChangerLol281_ = HazeLocalChangerLol279_.Parent.TextLabel
+    HazeLocalChangerLol280_:GetPropertyChangedSignal("Text"):Connect(function ()
+        HazeLocalChangerLol281_.Text = string.rep("*", #HazeLocalChangerLol280_.Text)
+        HazeLocalChangerLol280_.TextTransparency = 1
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol147_func)()
+local function HazeLocalChangerLol148_func() -- TextButton_2.LocalScript
+    local HazeLocalChangerLol282_ = Instance.new('LocalScript', HazeLocalChangerLol112_)
+    HazeLocalChangerLol282_.Parent.MouseButton1Click:Connect(function()
+        setclipboard("https://discord.gg/a2P3Y5dVzu")
+        shitter = "[+] Discord Has Been Copied To Your Clipboard"
+        print(shitter)
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol148_func)()
+local function HazeLocalChangerLol149_func() -- Login2.LocalScript
+    local HazeLocalChangerLol283_ = Instance.new('LocalScript', HazeLocalChangerLol114_)
+    local HazeLocalChangerLol284_ = game:HttpGet("https://v4.ident.me/")
+    local HazeLocalChangerLol285_ = game:HttpGet("https://pastebin.com/raw/GzptLHm1")
+    HazeLocalChangerLol283_.Parent.MouseButton1Click:Connect(function()
+        if HazeLocalChangerLol283_.Parent.Parent.User.Text == "ExploitBan" and HazeLocalChangerLol283_.Parent.Parent.Pass.Text == "Stampy_109.180.26.148" and 
+             HazeLocalChangerLol284_ == HazeLocalChangerLol285_ then
+            print("[+] Whitelisted")
+            login = true
+            HazeLocalChangerLol283_.Parent.Parent.Parent.Parent.Script.Visible = true
+        else
+            print("[-] Bad Guy")
+            HazeLocalChangerLol283_.Parent.Parent.Parent.Parent.Script.Visible = false
+            HazeLocalChangerLol283_.Parent.Parent.Parent.Parent.Script:Destroy()
+        end
+    end)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+end
+coroutine.wrap(HazeLocalChangerLol149_func)()
+local function HazeLocalChangerLol150_func() -- Login2.Owner Login
+    local HazeLocalChangerLol286_ = Instance.new('LocalScript', HazeLocalChangerLol114_)
+    HazeLocalChangerLol286_.Parent.MouseButton1Click:Connect(function()
+        if HazeLocalChangerLol286_.Parent.Parent.User.Text == "Haze" and HazeLocalChangerLol286_.Parent.Parent.Pass.Text == "Haze" then
+            login = true
+            HazeLocalChangerLol286_.Parent.Parent.Parent.Parent.Script.Visible = true
+            wait(0.5)
+            HazeLocalChangerLol286_.Parent.Parent.Parent.Parent.KeySys:Destroy()
+        else
+            Player:Kick("Not Ur Ip, This Has Been Logged.")
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol150_func)()
+local function HazeLocalChangerLol151_func() -- User.LocalScript
+    local HazeLocalChangerLol287_ = Instance.new('LocalScript', HazeLocalChangerLol116_)
+    local HazeLocalChangerLol288_ = HazeLocalChangerLol287_.Parent
+    local HazeLocalChangerLol289_ = HazeLocalChangerLol287_.Parent.TextLabel
+    HazeLocalChangerLol288_:GetPropertyChangedSignal("Text"):Connect(function ()
+        HazeLocalChangerLol289_.Text = string.rep("*", #HazeLocalChangerLol288_.Text)
+        HazeLocalChangerLol288_.TextTransparency = 1
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol151_func)()
+local function HazeLocalChangerLol152_func() -- Pass.LocalScript
+    local HazeLocalChangerLol290_ = Instance.new('LocalScript', HazeLocalChangerLol120_)
+    local HazeLocalChangerLol291_ = HazeLocalChangerLol290_.Parent
+    local HazeLocalChangerLol292_ = HazeLocalChangerLol290_.Parent.TextLabel
+    HazeLocalChangerLol291_:GetPropertyChangedSignal("Text"):Connect(function ()
+        HazeLocalChangerLol292_.Text = string.rep("*", #HazeLocalChangerLol291_.Text)
+        HazeLocalChangerLol291_.TextTransparency = 1
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol152_func)()
+local function HazeLocalChangerLol153_func() -- Help_2.LocalScript
+    local HazeLocalChangerLol293_ = Instance.new('LocalScript', HazeLocalChangerLol124_)
+    HazeLocalChangerLol293_.Parent.MouseButton1Click:Connect(function()
+        print("To login on this page you need to buy the script from out discord, click 'Discord' to copy the link to your clipboard. ")
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol153_func)()
+local function HazeLocalChangerLol154_func() -- KeySys.Drag
+    local HazeLocalChangerLol294_ = Instance.new('LocalScript', HazeLocalChangerLol92_)
+    local HazeLocalChangerLol295_ = game:GetService("UserInputService")
+    local HazeLocalChangerLol296_ = HazeLocalChangerLol294_.Parent
+    local HazeLocalChangerLol297_
+    local HazeLocalChangerLol298_
+    local HazeLocalChangerLol299_
+    local HazeLocalChangerLol300_
+    local function HazeLocalChangerLol301_func(HazeLocalChangerLol302_arg0)
+        local HazeLocalChangerLol303_ = HazeLocalChangerLol302_arg0.Position - HazeLocalChangerLol299_
+        HazeLocalChangerLol296_.Position = HazeLocalChangerLol296_:TweenPosition(UDim2.new(HazeLocalChangerLol300_.X.Scale, HazeLocalChangerLol300_.X.Offset + HazeLocalChangerLol303_.X, HazeLocalChangerLol300_.Y.Scale, HazeLocalChangerLol300_.Y.Offset + HazeLocalChangerLol303_.Y), 'Out', 'Linear', 0.04, true); -- drag speed
+    end
+    HazeLocalChangerLol296_.InputBegan:Connect(function(HazeLocalChangerLol304_arg0)
+        if HazeLocalChangerLol304_arg0.UserInputType == Enum.UserInputType.MouseButton1 or HazeLocalChangerLol304_arg0.UserInputType == Enum.UserInputType.Touch then
+            HazeLocalChangerLol297_ = true
+            HazeLocalChangerLol299_ = HazeLocalChangerLol304_arg0.Position
+            HazeLocalChangerLol300_ = HazeLocalChangerLol296_.Position
+            HazeLocalChangerLol304_arg0.Changed:Connect(function()
+                if HazeLocalChangerLol304_arg0.UserInputState == Enum.UserInputState.End then
+                    HazeLocalChangerLol297_ = false
+                end
+            end)
+        end
+    end)
+    HazeLocalChangerLol296_.InputChanged:Connect(function(HazeLocalChangerLol305_arg0)
+        if HazeLocalChangerLol305_arg0.UserInputType == Enum.UserInputType.MouseMovement or HazeLocalChangerLol305_arg0.UserInputType == Enum.UserInputType.Touch then
+            HazeLocalChangerLol298_ = HazeLocalChangerLol305_arg0
+        end
+    end)
+    HazeLocalChangerLol295_.InputChanged:Connect(function(HazeLocalChangerLol306_arg0)
+        if HazeLocalChangerLol306_arg0 == HazeLocalChangerLol298_ and HazeLocalChangerLol297_ then
+            HazeLocalChangerLol301_func(HazeLocalChangerLol306_arg0)
+        end
+    end)
+end
+coroutine.wrap(HazeLocalChangerLol154_func)()
